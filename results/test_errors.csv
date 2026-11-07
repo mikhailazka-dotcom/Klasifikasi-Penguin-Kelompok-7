@@ -1,0 +1,4 @@
+row_id,model,actual,predicted,correct,max_score,bill_length_mm,bill_depth_mm,flipper_length_mm,body_mass_g
+307,Decision Tree,Chinstrap,Adelie,False,0.6666666666666666,54.2,20.8,201.0,4300.0
+298,Decision Tree,Chinstrap,Adelie,False,0.6153846153846154,43.2,16.6,187.0,2900.0
+129,Decision Tree,Adelie,Gentoo,False,1.0,44.1,18.0,210.0,4000.0

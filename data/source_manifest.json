@@ -1,0 +1,9 @@
+{
+  "dataset": "Palmer Penguins (simplified 8 columns)",
+  "source_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/156daa4301838d9fdcc5b018b29b9149bf975552/inst/extdata/penguins.csv",
+  "source_commit": "156daa4301838d9fdcc5b018b29b9149bf975552",
+  "documentation": "https://allisonhorst.github.io/palmerpenguins/",
+  "license": "CC0 according to palmerpenguins documentation; cite Gorman et al. (2014) and Horst et al. (2022)",
+  "retrieved_utc": "2026-11-06T03:26:28.746869+00:00",
+  "sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93"
+}

@@ -1,0 +1,208 @@
+row_id,model,actual,predicted,correct,max_score,bill_length_mm,bill_depth_mm,flipper_length_mm,body_mass_g
+151,Logistic Regression,Adelie,Adelie,True,0.9435294882554481,41.5,18.5,201.0,4000.0
+1,Logistic Regression,Adelie,Adelie,True,0.9726849111868597,39.5,17.4,186.0,3800.0
+226,Logistic Regression,Gentoo,Gentoo,True,0.9891020371018834,46.4,15.0,216.0,4700.0
+269,Logistic Regression,Gentoo,Gentoo,True,0.9984624734637217,48.8,16.2,222.0,6000.0
+282,Logistic Regression,Chinstrap,Chinstrap,True,0.948911895394178,46.1,18.2,178.0,3250.0
+102,Logistic Regression,Adelie,Adelie,True,0.9351244657117241,37.7,16.0,183.0,3075.0
+303,Logistic Regression,Chinstrap,Chinstrap,True,0.9753560255648485,49.5,19.0,200.0,3800.0
+237,Logistic Regression,Gentoo,Gentoo,True,0.9932329812629882,50.8,17.3,228.0,5600.0
+304,Logistic Regression,Chinstrap,Chinstrap,True,0.8910135722148232,46.4,17.8,191.0,3700.0
+297,Logistic Regression,Chinstrap,Chinstrap,True,0.9885668800712991,48.5,17.5,191.0,3400.0
+14,Logistic Regression,Adelie,Adelie,True,0.9999829606326845,34.6,21.1,198.0,4400.0
+219,Logistic Regression,Gentoo,Gentoo,True,0.9990646795929178,49.5,16.2,229.0,5800.0
+277,Logistic Regression,Chinstrap,Chinstrap,True,0.9783160298138239,50.0,19.5,196.0,3900.0
+210,Logistic Regression,Gentoo,Gentoo,True,0.9731738913772946,43.2,14.5,208.0,4450.0
+204,Logistic Regression,Gentoo,Gentoo,True,0.9802639097229361,45.1,14.4,210.0,4400.0
+206,Logistic Regression,Gentoo,Gentoo,True,0.9968959152868068,46.5,14.4,217.0,4900.0
+91,Logistic Regression,Adelie,Adelie,True,0.9370465153102417,41.1,18.1,205.0,4300.0
+87,Logistic Regression,Adelie,Adelie,True,0.9972189267080692,36.9,18.6,189.0,3500.0
+175,Logistic Regression,Gentoo,Gentoo,True,0.9854660579713238,46.3,15.8,215.0,5050.0
+162,Logistic Regression,Gentoo,Gentoo,True,0.991483316085048,40.9,13.7,214.0,4650.0
+334,Logistic Regression,Chinstrap,Chinstrap,True,0.9823058607073353,50.2,18.8,202.0,3800.0
+167,Logistic Regression,Gentoo,Gentoo,True,0.9981446750130045,49.3,15.7,217.0,5850.0
+189,Logistic Regression,Gentoo,Gentoo,True,0.8902713099395789,44.4,17.3,219.0,5250.0
+90,Logistic Regression,Adelie,Adelie,True,0.9974639075117154,35.7,18.0,202.0,3550.0
+71,Logistic Regression,Adelie,Adelie,True,0.9859046376456347,39.7,18.4,190.0,3900.0
+41,Logistic Regression,Adelie,Adelie,True,0.9632381737415047,40.8,18.4,195.0,3900.0
+270,Logistic Regression,Gentoo,Gentoo,True,0.9977501246513633,47.2,13.7,214.0,4925.0
+20,Logistic Regression,Adelie,Adelie,True,0.9912073373428821,37.8,18.3,174.0,3400.0
+221,Logistic Regression,Gentoo,Gentoo,True,0.9987173001683419,50.7,15.0,223.0,5550.0
+183,Logistic Regression,Gentoo,Gentoo,True,0.9868188430993867,42.8,14.2,209.0,4700.0
+116,Logistic Regression,Adelie,Adelie,True,0.8900955993377692,38.6,17.0,188.0,2900.0
+74,Logistic Regression,Adelie,Adelie,True,0.998373483158181,35.5,17.5,190.0,3700.0
+79,Logistic Regression,Adelie,Adelie,True,0.9460154424416559,42.1,19.1,195.0,4000.0
+88,Logistic Regression,Adelie,Adelie,True,0.9976837353327036,38.3,19.2,189.0,3950.0
+99,Logistic Regression,Adelie,Adelie,True,0.8578079778005271,43.2,18.5,192.0,4100.0
+220,Logistic Regression,Gentoo,Gentoo,True,0.9969722800279243,43.5,14.2,220.0,4700.0
+195,Logistic Regression,Gentoo,Gentoo,True,0.9779202819353723,49.6,15.0,216.0,4750.0
+59,Logistic Regression,Adelie,Adelie,True,0.9977626297838208,37.6,19.1,194.0,3750.0
+106,Logistic Regression,Adelie,Adelie,True,0.9695023168616019,38.6,17.2,199.0,3750.0
+248,Logistic Regression,Gentoo,Gentoo,True,0.9730116154295487,49.4,15.8,216.0,4925.0
+311,Logistic Regression,Chinstrap,Chinstrap,True,0.8329426231026731,47.5,16.8,199.0,3900.0
+37,Logistic Regression,Adelie,Adelie,True,0.7987395564578705,42.2,18.5,180.0,3550.0
+48,Logistic Regression,Adelie,Adelie,True,0.9976047037952787,36.0,17.9,190.0,3450.0
+307,Logistic Regression,Chinstrap,Chinstrap,True,0.9959601156452595,54.2,20.8,201.0,4300.0
+130,Logistic Regression,Adelie,Adelie,True,0.9757008306279374,38.5,17.9,190.0,3325.0
+298,Logistic Regression,Chinstrap,Chinstrap,True,0.8847742984389699,43.2,16.6,187.0,2900.0
+57,Logistic Regression,Adelie,Adelie,True,0.9711078925559011,40.6,18.8,193.0,3800.0
+21,Logistic Regression,Adelie,Adelie,True,0.9960195242694552,37.7,18.7,180.0,3600.0
+129,Logistic Regression,Adelie,Adelie,True,0.514268453653628,44.1,18.0,210.0,4000.0
+224,Logistic Regression,Gentoo,Gentoo,True,0.9943356147415852,48.2,15.6,221.0,5100.0
+103,Logistic Regression,Adelie,Adelie,True,0.9995107762921865,37.8,20.0,190.0,4250.0
+146,Logistic Regression,Adelie,Adelie,True,0.9955629567850736,39.2,18.6,190.0,4250.0
+290,Logistic Regression,Chinstrap,Chinstrap,True,0.9034146921880806,45.9,17.1,190.0,3575.0
+92,Logistic Regression,Adelie,Adelie,True,0.9990966073150389,34.0,17.1,185.0,3400.0
+153,Logistic Regression,Gentoo,Gentoo,True,0.9987681062535778,50.0,16.3,230.0,5700.0
+326,Logistic Regression,Chinstrap,Chinstrap,True,0.9638025142879126,48.1,16.4,199.0,3325.0
+58,Logistic Regression,Adelie,Adelie,True,0.9723943426024669,36.5,16.6,181.0,2850.0
+317,Logistic Regression,Chinstrap,Chinstrap,True,0.9041839239491106,46.2,17.5,187.0,3650.0
+142,Logistic Regression,Adelie,Adelie,True,0.9978882547404937,32.1,15.5,188.0,3050.0
+241,Logistic Regression,Gentoo,Gentoo,True,0.9936280213897091,52.1,17.0,230.0,5550.0
+207,Logistic Regression,Gentoo,Gentoo,True,0.9935598828556068,45.0,15.4,220.0,5050.0
+318,Logistic Regression,Chinstrap,Chinstrap,True,0.9958559924680135,50.9,19.1,196.0,3550.0
+170,Logistic Regression,Gentoo,Gentoo,True,0.9892940960205724,46.2,14.5,209.0,4800.0
+258,Logistic Regression,Gentoo,Gentoo,True,0.9620669641636764,41.7,14.7,210.0,4700.0
+288,Logistic Regression,Chinstrap,Chinstrap,True,0.9449371939788472,47.0,17.3,185.0,3700.0
+168,Logistic Regression,Gentoo,Gentoo,True,0.9882587000874347,42.0,13.5,210.0,4150.0
+52,Logistic Regression,Adelie,Adelie,True,0.9989162412432095,35.0,17.9,190.0,3450.0
+121,Logistic Regression,Adelie,Adelie,True,0.997248132242086,37.7,19.8,198.0,3500.0
+249,Logistic Regression,Gentoo,Gentoo,True,0.9975416015898048,46.9,14.6,222.0,4875.0
+151,KNN,Adelie,Adelie,True,1.0,41.5,18.5,201.0,4000.0
+1,KNN,Adelie,Adelie,True,1.0,39.5,17.4,186.0,3800.0
+226,KNN,Gentoo,Gentoo,True,1.0,46.4,15.0,216.0,4700.0
+269,KNN,Gentoo,Gentoo,True,1.0,48.8,16.2,222.0,6000.0
+282,KNN,Chinstrap,Chinstrap,True,0.8,46.1,18.2,178.0,3250.0
+102,KNN,Adelie,Adelie,True,1.0,37.7,16.0,183.0,3075.0
+303,KNN,Chinstrap,Chinstrap,True,1.0,49.5,19.0,200.0,3800.0
+237,KNN,Gentoo,Gentoo,True,1.0,50.8,17.3,228.0,5600.0
+304,KNN,Chinstrap,Chinstrap,True,1.0,46.4,17.8,191.0,3700.0
+297,KNN,Chinstrap,Chinstrap,True,1.0,48.5,17.5,191.0,3400.0
+14,KNN,Adelie,Adelie,True,1.0,34.6,21.1,198.0,4400.0
+219,KNN,Gentoo,Gentoo,True,1.0,49.5,16.2,229.0,5800.0
+277,KNN,Chinstrap,Chinstrap,True,1.0,50.0,19.5,196.0,3900.0
+210,KNN,Gentoo,Gentoo,True,1.0,43.2,14.5,208.0,4450.0
+204,KNN,Gentoo,Gentoo,True,1.0,45.1,14.4,210.0,4400.0
+206,KNN,Gentoo,Gentoo,True,1.0,46.5,14.4,217.0,4900.0
+91,KNN,Adelie,Adelie,True,1.0,41.1,18.1,205.0,4300.0
+87,KNN,Adelie,Adelie,True,1.0,36.9,18.6,189.0,3500.0
+175,KNN,Gentoo,Gentoo,True,1.0,46.3,15.8,215.0,5050.0
+162,KNN,Gentoo,Gentoo,True,1.0,40.9,13.7,214.0,4650.0
+334,KNN,Chinstrap,Chinstrap,True,1.0,50.2,18.8,202.0,3800.0
+167,KNN,Gentoo,Gentoo,True,1.0,49.3,15.7,217.0,5850.0
+189,KNN,Gentoo,Gentoo,True,1.0,44.4,17.3,219.0,5250.0
+90,KNN,Adelie,Adelie,True,1.0,35.7,18.0,202.0,3550.0
+71,KNN,Adelie,Adelie,True,1.0,39.7,18.4,190.0,3900.0
+41,KNN,Adelie,Adelie,True,1.0,40.8,18.4,195.0,3900.0
+270,KNN,Gentoo,Gentoo,True,1.0,47.2,13.7,214.0,4925.0
+20,KNN,Adelie,Adelie,True,1.0,37.8,18.3,174.0,3400.0
+221,KNN,Gentoo,Gentoo,True,1.0,50.7,15.0,223.0,5550.0
+183,KNN,Gentoo,Gentoo,True,1.0,42.8,14.2,209.0,4700.0
+116,KNN,Adelie,Adelie,True,1.0,38.6,17.0,188.0,2900.0
+74,KNN,Adelie,Adelie,True,1.0,35.5,17.5,190.0,3700.0
+79,KNN,Adelie,Adelie,True,1.0,42.1,19.1,195.0,4000.0
+88,KNN,Adelie,Adelie,True,1.0,38.3,19.2,189.0,3950.0
+99,KNN,Adelie,Adelie,True,1.0,43.2,18.5,192.0,4100.0
+220,KNN,Gentoo,Gentoo,True,1.0,43.5,14.2,220.0,4700.0
+195,KNN,Gentoo,Gentoo,True,1.0,49.6,15.0,216.0,4750.0
+59,KNN,Adelie,Adelie,True,1.0,37.6,19.1,194.0,3750.0
+106,KNN,Adelie,Adelie,True,1.0,38.6,17.2,199.0,3750.0
+248,KNN,Gentoo,Gentoo,True,1.0,49.4,15.8,216.0,4925.0
+311,KNN,Chinstrap,Chinstrap,True,0.6,47.5,16.8,199.0,3900.0
+37,KNN,Adelie,Adelie,True,0.8,42.2,18.5,180.0,3550.0
+48,KNN,Adelie,Adelie,True,1.0,36.0,17.9,190.0,3450.0
+307,KNN,Chinstrap,Chinstrap,True,1.0,54.2,20.8,201.0,4300.0
+130,KNN,Adelie,Adelie,True,1.0,38.5,17.9,190.0,3325.0
+298,KNN,Chinstrap,Chinstrap,True,1.0,43.2,16.6,187.0,2900.0
+57,KNN,Adelie,Adelie,True,1.0,40.6,18.8,193.0,3800.0
+21,KNN,Adelie,Adelie,True,1.0,37.7,18.7,180.0,3600.0
+129,KNN,Adelie,Adelie,True,0.6,44.1,18.0,210.0,4000.0
+224,KNN,Gentoo,Gentoo,True,1.0,48.2,15.6,221.0,5100.0
+103,KNN,Adelie,Adelie,True,1.0,37.8,20.0,190.0,4250.0
+146,KNN,Adelie,Adelie,True,1.0,39.2,18.6,190.0,4250.0
+290,KNN,Chinstrap,Chinstrap,True,1.0,45.9,17.1,190.0,3575.0
+92,KNN,Adelie,Adelie,True,1.0,34.0,17.1,185.0,3400.0
+153,KNN,Gentoo,Gentoo,True,1.0,50.0,16.3,230.0,5700.0
+326,KNN,Chinstrap,Chinstrap,True,1.0,48.1,16.4,199.0,3325.0
+58,KNN,Adelie,Adelie,True,1.0,36.5,16.6,181.0,2850.0
+317,KNN,Chinstrap,Chinstrap,True,1.0,46.2,17.5,187.0,3650.0
+142,KNN,Adelie,Adelie,True,1.0,32.1,15.5,188.0,3050.0
+241,KNN,Gentoo,Gentoo,True,1.0,52.1,17.0,230.0,5550.0
+207,KNN,Gentoo,Gentoo,True,1.0,45.0,15.4,220.0,5050.0
+318,KNN,Chinstrap,Chinstrap,True,1.0,50.9,19.1,196.0,3550.0
+170,KNN,Gentoo,Gentoo,True,1.0,46.2,14.5,209.0,4800.0
+258,KNN,Gentoo,Gentoo,True,1.0,41.7,14.7,210.0,4700.0
+288,KNN,Chinstrap,Chinstrap,True,1.0,47.0,17.3,185.0,3700.0
+168,KNN,Gentoo,Gentoo,True,1.0,42.0,13.5,210.0,4150.0
+52,KNN,Adelie,Adelie,True,1.0,35.0,17.9,190.0,3450.0
+121,KNN,Adelie,Adelie,True,1.0,37.7,19.8,198.0,3500.0
+249,KNN,Gentoo,Gentoo,True,1.0,46.9,14.6,222.0,4875.0
+151,Decision Tree,Adelie,Adelie,True,0.990990990990991,41.5,18.5,201.0,4000.0
+1,Decision Tree,Adelie,Adelie,True,0.990990990990991,39.5,17.4,186.0,3800.0
+226,Decision Tree,Gentoo,Gentoo,True,1.0,46.4,15.0,216.0,4700.0
+269,Decision Tree,Gentoo,Gentoo,True,1.0,48.8,16.2,222.0,6000.0
+282,Decision Tree,Chinstrap,Chinstrap,True,0.9555555555555556,46.1,18.2,178.0,3250.0
+102,Decision Tree,Adelie,Adelie,True,0.990990990990991,37.7,16.0,183.0,3075.0
+303,Decision Tree,Chinstrap,Chinstrap,True,0.9555555555555556,49.5,19.0,200.0,3800.0
+237,Decision Tree,Gentoo,Gentoo,True,1.0,50.8,17.3,228.0,5600.0
+304,Decision Tree,Chinstrap,Chinstrap,True,0.9555555555555556,46.4,17.8,191.0,3700.0
+297,Decision Tree,Chinstrap,Chinstrap,True,0.9555555555555556,48.5,17.5,191.0,3400.0
+14,Decision Tree,Adelie,Adelie,True,0.990990990990991,34.6,21.1,198.0,4400.0
+219,Decision Tree,Gentoo,Gentoo,True,1.0,49.5,16.2,229.0,5800.0
+277,Decision Tree,Chinstrap,Chinstrap,True,0.9555555555555556,50.0,19.5,196.0,3900.0
+210,Decision Tree,Gentoo,Gentoo,True,1.0,43.2,14.5,208.0,4450.0
+204,Decision Tree,Gentoo,Gentoo,True,1.0,45.1,14.4,210.0,4400.0
+206,Decision Tree,Gentoo,Gentoo,True,1.0,46.5,14.4,217.0,4900.0
+91,Decision Tree,Adelie,Adelie,True,0.990990990990991,41.1,18.1,205.0,4300.0
+87,Decision Tree,Adelie,Adelie,True,0.990990990990991,36.9,18.6,189.0,3500.0
+175,Decision Tree,Gentoo,Gentoo,True,1.0,46.3,15.8,215.0,5050.0
+162,Decision Tree,Gentoo,Gentoo,True,1.0,40.9,13.7,214.0,4650.0
+334,Decision Tree,Chinstrap,Chinstrap,True,0.9555555555555556,50.2,18.8,202.0,3800.0
+167,Decision Tree,Gentoo,Gentoo,True,1.0,49.3,15.7,217.0,5850.0
+189,Decision Tree,Gentoo,Gentoo,True,1.0,44.4,17.3,219.0,5250.0
+90,Decision Tree,Adelie,Adelie,True,0.990990990990991,35.7,18.0,202.0,3550.0
+71,Decision Tree,Adelie,Adelie,True,0.990990990990991,39.7,18.4,190.0,3900.0
+41,Decision Tree,Adelie,Adelie,True,0.990990990990991,40.8,18.4,195.0,3900.0
+270,Decision Tree,Gentoo,Gentoo,True,1.0,47.2,13.7,214.0,4925.0
+20,Decision Tree,Adelie,Adelie,True,0.990990990990991,37.8,18.3,174.0,3400.0
+221,Decision Tree,Gentoo,Gentoo,True,1.0,50.7,15.0,223.0,5550.0
+183,Decision Tree,Gentoo,Gentoo,True,1.0,42.8,14.2,209.0,4700.0
+116,Decision Tree,Adelie,Adelie,True,0.990990990990991,38.6,17.0,188.0,2900.0
+74,Decision Tree,Adelie,Adelie,True,0.990990990990991,35.5,17.5,190.0,3700.0
+79,Decision Tree,Adelie,Adelie,True,0.990990990990991,42.1,19.1,195.0,4000.0
+88,Decision Tree,Adelie,Adelie,True,0.990990990990991,38.3,19.2,189.0,3950.0
+99,Decision Tree,Adelie,Adelie,True,0.6153846153846154,43.2,18.5,192.0,4100.0
+220,Decision Tree,Gentoo,Gentoo,True,1.0,43.5,14.2,220.0,4700.0
+195,Decision Tree,Gentoo,Gentoo,True,1.0,49.6,15.0,216.0,4750.0
+59,Decision Tree,Adelie,Adelie,True,0.990990990990991,37.6,19.1,194.0,3750.0
+106,Decision Tree,Adelie,Adelie,True,0.990990990990991,38.6,17.2,199.0,3750.0
+248,Decision Tree,Gentoo,Gentoo,True,1.0,49.4,15.8,216.0,4925.0
+311,Decision Tree,Chinstrap,Chinstrap,True,0.9555555555555556,47.5,16.8,199.0,3900.0
+37,Decision Tree,Adelie,Adelie,True,0.990990990990991,42.2,18.5,180.0,3550.0
+48,Decision Tree,Adelie,Adelie,True,0.990990990990991,36.0,17.9,190.0,3450.0
+307,Decision Tree,Chinstrap,Adelie,False,0.6666666666666666,54.2,20.8,201.0,4300.0
+130,Decision Tree,Adelie,Adelie,True,0.990990990990991,38.5,17.9,190.0,3325.0
+298,Decision Tree,Chinstrap,Adelie,False,0.6153846153846154,43.2,16.6,187.0,2900.0
+57,Decision Tree,Adelie,Adelie,True,0.990990990990991,40.6,18.8,193.0,3800.0
+21,Decision Tree,Adelie,Adelie,True,0.990990990990991,37.7,18.7,180.0,3600.0
+129,Decision Tree,Adelie,Gentoo,False,1.0,44.1,18.0,210.0,4000.0
+224,Decision Tree,Gentoo,Gentoo,True,1.0,48.2,15.6,221.0,5100.0
+103,Decision Tree,Adelie,Adelie,True,0.990990990990991,37.8,20.0,190.0,4250.0
+146,Decision Tree,Adelie,Adelie,True,0.990990990990991,39.2,18.6,190.0,4250.0
+290,Decision Tree,Chinstrap,Chinstrap,True,0.9555555555555556,45.9,17.1,190.0,3575.0
+92,Decision Tree,Adelie,Adelie,True,0.990990990990991,34.0,17.1,185.0,3400.0
+153,Decision Tree,Gentoo,Gentoo,True,1.0,50.0,16.3,230.0,5700.0
+326,Decision Tree,Chinstrap,Chinstrap,True,0.9555555555555556,48.1,16.4,199.0,3325.0
+58,Decision Tree,Adelie,Adelie,True,0.990990990990991,36.5,16.6,181.0,2850.0
+317,Decision Tree,Chinstrap,Chinstrap,True,0.9555555555555556,46.2,17.5,187.0,3650.0
+142,Decision Tree,Adelie,Adelie,True,0.990990990990991,32.1,15.5,188.0,3050.0
+241,Decision Tree,Gentoo,Gentoo,True,1.0,52.1,17.0,230.0,5550.0
+207,Decision Tree,Gentoo,Gentoo,True,1.0,45.0,15.4,220.0,5050.0
+318,Decision Tree,Chinstrap,Chinstrap,True,0.9555555555555556,50.9,19.1,196.0,3550.0
+170,Decision Tree,Gentoo,Gentoo,True,1.0,46.2,14.5,209.0,4800.0
+258,Decision Tree,Gentoo,Gentoo,True,1.0,41.7,14.7,210.0,4700.0
+288,Decision Tree,Chinstrap,Chinstrap,True,0.9555555555555556,47.0,17.3,185.0,3700.0
+168,Decision Tree,Gentoo,Gentoo,True,1.0,42.0,13.5,210.0,4150.0
+52,Decision Tree,Adelie,Adelie,True,0.990990990990991,35.0,17.9,190.0,3450.0
+121,Decision Tree,Adelie,Adelie,True,0.990990990990991,37.7,19.8,198.0,3500.0
+249,Decision Tree,Gentoo,Gentoo,True,1.0,46.9,14.6,222.0,4875.0

@@ -1,0 +1,266 @@
+{
+  "created_utc": "2026-11-06T03:49:50.879217+00:00",
+  "dataset_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+  "seed": 42,
+  "n_source": 344,
+  "n_train": 275,
+  "n_test": 69,
+  "selected_model": "KNN",
+  "features": [
+    "bill_length_mm",
+    "bill_depth_mm",
+    "flipper_length_mm",
+    "body_mass_g"
+  ],
+  "classes": [
+    "Adelie",
+    "Chinstrap",
+    "Gentoo"
+  ],
+  "selected_model_sha256": "df17b25b9504965bcbdd137077b09636cc173121e0cc13e700151315ae13451e",
+  "selection": "Macro-F1 rata-rata CV 5-fold hanya pada training; parameter tetap, tanpa tuning test.",
+  "cv_std_definition": "Sample SD antar 5 fold (ddof=1); bukan confidence interval.",
+  "parameters": {
+    "Logistic Regression": {
+      "max_iter": 2000,
+      "C": 1.0,
+      "random_state": 42
+    },
+    "KNN": {
+      "n_neighbors": 5,
+      "weights": "uniform",
+      "metric": "euclidean"
+    },
+    "Decision Tree": {
+      "max_depth": 3,
+      "min_samples_leaf": 3,
+      "random_state": 42
+    }
+  },
+  "training_ranges": {
+    "bill_length_mm": [
+      33.1,
+      59.6
+    ],
+    "bill_depth_mm": [
+      13.1,
+      21.5
+    ],
+    "flipper_length_mm": [
+      172.0,
+      231.0
+    ],
+    "body_mass_g": [
+      2700.0,
+      6300.0
+    ]
+  },
+  "training_medians": {
+    "bill_length_mm": 44.9,
+    "bill_depth_mm": 17.3,
+    "flipper_length_mm": 197.0,
+    "body_mass_g": 4050.0
+  },
+  "cv_results": [
+    {
+      "feature_set": "4 fitur",
+      "model": "Logistic Regression",
+      "n_features": 4,
+      "cv_accuracy_mean": 0.9745454545454546,
+      "cv_accuracy_std": 0.030424000964875485,
+      "cv_precision_macro_mean": 0.9755873015873016,
+      "cv_precision_macro_std": 0.023648769488324707,
+      "cv_recall_macro_mean": 0.9663737373737373,
+      "cv_recall_macro_std": 0.045523606346850175,
+      "cv_f1_macro_mean": 0.9689857535986363,
+      "cv_f1_macro_std": 0.03664667708407398,
+      "cv_train_f1_mean": 0.9796317576614669,
+      "cv_gap": 0.010646004062830672
+    },
+    {
+      "feature_set": "4 fitur",
+      "model": "KNN",
+      "n_features": 4,
+      "cv_accuracy_mean": 0.9781818181818182,
+      "cv_accuracy_std": 0.029875775863918163,
+      "cv_precision_macro_mean": 0.9770655270655271,
+      "cv_precision_macro_std": 0.030793622283167642,
+      "cv_recall_macro_mean": 0.969040404040404,
+      "cv_recall_macro_std": 0.04495573671337736,
+      "cv_f1_macro_mean": 0.971902744416556,
+      "cv_f1_macro_std": 0.039017908612645806,
+      "cv_train_f1_mean": 0.976592150847653,
+      "cv_gap": 0.004689406431097054
+    },
+    {
+      "feature_set": "4 fitur",
+      "model": "Decision Tree",
+      "n_features": 4,
+      "cv_accuracy_mean": 0.949090909090909,
+      "cv_accuracy_std": 0.03497342556667519,
+      "cv_precision_macro_mean": 0.938903651903652,
+      "cv_precision_macro_std": 0.04058430927766745,
+      "cv_recall_macro_mean": 0.938868686868687,
+      "cv_recall_macro_std": 0.04260505300761223,
+      "cv_f1_macro_mean": 0.9384599115605982,
+      "cv_f1_macro_std": 0.04186443620763439,
+      "cv_train_f1_mean": 0.953228426794875,
+      "cv_gap": 0.014768515234276802
+    },
+    {
+      "feature_set": "2 fitur paruh",
+      "model": "Logistic Regression",
+      "n_features": 2,
+      "cv_accuracy_mean": 0.9563636363636363,
+      "cv_accuracy_std": 0.02073046227452979,
+      "cv_precision_macro_mean": 0.9500859510859512,
+      "cv_precision_macro_std": 0.02524952774350288,
+      "cv_recall_macro_mean": 0.9381919191919191,
+      "cv_recall_macro_std": 0.03141934576396993,
+      "cv_f1_macro_mean": 0.9431335520009536,
+      "cv_f1_macro_std": 0.02883915646482893,
+      "cv_train_f1_mean": 0.948253908292805,
+      "cv_gap": 0.005120356291851369
+    },
+    {
+      "feature_set": "2 fitur paruh",
+      "model": "KNN",
+      "n_features": 2,
+      "cv_accuracy_mean": 0.9636363636363636,
+      "cv_accuracy_std": 0.018181818181818188,
+      "cv_precision_macro_mean": 0.9560623820623821,
+      "cv_precision_macro_std": 0.02429318510460235,
+      "cv_recall_macro_mean": 0.9536464646464646,
+      "cv_recall_macro_std": 0.024433130364365965,
+      "cv_f1_macro_mean": 0.9540054370120373,
+      "cv_f1_macro_std": 0.02339004765181713,
+      "cv_train_f1_mean": 0.959096674453878,
+      "cv_gap": 0.005091237441840701
+    },
+    {
+      "feature_set": "2 fitur paruh",
+      "model": "Decision Tree",
+      "n_features": 2,
+      "cv_accuracy_mean": 0.9236363636363636,
+      "cv_accuracy_std": 0.023706190564373276,
+      "cv_precision_macro_mean": 0.9091654641654641,
+      "cv_precision_macro_std": 0.03935318560426537,
+      "cv_recall_macro_mean": 0.9114141414141415,
+      "cv_recall_macro_std": 0.037054740182916775,
+      "cv_f1_macro_mean": 0.905274289840204,
+      "cv_f1_macro_std": 0.03077193459189076,
+      "cv_train_f1_mean": 0.930916032869199,
+      "cv_gap": 0.025641743028995023
+    }
+  ],
+  "test_results": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "train_f1_macro": 0.9775529518706807
+    },
+    {
+      "model": "KNN",
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "train_f1_macro": 0.9726923897677858
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.9565217391304348,
+      "precision_macro": 0.9656741108354012,
+      "recall_macro": 0.9412698412698411,
+      "f1_macro": 0.9514295840236052,
+      "train_f1_macro": 0.9559790181132694
+    }
+  ],
+  "confusion_matrices": {
+    "Logistic Regression": [
+      [
+        30,
+        0,
+        0
+      ],
+      [
+        0,
+        14,
+        0
+      ],
+      [
+        0,
+        0,
+        25
+      ]
+    ],
+    "KNN": [
+      [
+        30,
+        0,
+        0
+      ],
+      [
+        0,
+        14,
+        0
+      ],
+      [
+        0,
+        0,
+        25
+      ]
+    ],
+    "Decision Tree": [
+      [
+        29,
+        0,
+        1
+      ],
+      [
+        2,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        25
+      ]
+    ]
+  },
+  "feature_importance": [
+    {
+      "feature": "bill_length_mm",
+      "mean": 0.31222964422935784,
+      "std": 0.07159512420899025
+    },
+    {
+      "feature": "bill_depth_mm",
+      "mean": 0.16607888513832722,
+      "std": 0.0582920222883016
+    },
+    {
+      "feature": "body_mass_g",
+      "mean": 0.05866580087643818,
+      "std": 0.041259797664625855
+    },
+    {
+      "feature": "flipper_length_mm",
+      "mean": 0.02058139535181831,
+      "std": 0.028296680519875432
+    }
+  ],
+  "software": {
+    "python": "3.14.7",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2"
+  }
+}

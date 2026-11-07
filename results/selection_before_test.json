@@ -1,0 +1,28 @@
+{
+  "selected_model": "KNN",
+  "features": [
+    "bill_length_mm",
+    "bill_depth_mm",
+    "flipper_length_mm",
+    "body_mass_g"
+  ],
+  "criterion": "CV training macro-F1 tertinggi; jika sama, SD lebih kecil, lalu urutan LR/KNN/DT.",
+  "hyperparameters_fixed_before_test": {
+    "Logistic Regression": {
+      "max_iter": 2000,
+      "C": 1.0,
+      "random_state": 42
+    },
+    "KNN": {
+      "n_neighbors": 5,
+      "weights": "uniform",
+      "metric": "euclidean"
+    },
+    "Decision Tree": {
+      "max_depth": 3,
+      "min_samples_leaf": 3,
+      "random_state": 42
+    }
+  },
+  "secondary_experiment": "2 fitur paruh dievaluasi CV saja; tidak mengubah pemilihan aplikasi."
+}

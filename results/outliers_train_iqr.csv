@@ -1,0 +1,13 @@
+species,feature,lower,upper,n_outlier
+Adelie,bill_length_mm,30.799999999999997,46.8,0
+Adelie,bill_depth_mm,15.25,21.25,1
+Adelie,flipper_length_mm,171.5,207.5,1
+Adelie,body_mass_g,2312.5,5012.5,0
+Chinstrap,bill_length_mm,39.1125,58.6125,0
+Chinstrap,bill_depth_mm,15.349999999999996,21.950000000000003,0
+Chinstrap,flipper_length_mm,181.0,213.0,0
+Chinstrap,body_mass_g,2693.75,4843.75,0
+Gentoo,bill_length_mm,39.125,56.125,1
+Gentoo,bill_depth_mm,11.95,17.95,0
+Gentoo,flipper_length_mm,198.5,234.5,0
+Gentoo,body_mass_g,3515.625,6690.625,0

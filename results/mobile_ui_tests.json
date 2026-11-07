@@ -1,0 +1,11 @@
+{
+  "checked_utc": "2026-11-06T04:38:14.777197+00:00",
+  "viewport": "390x844",
+  "checks": [
+    "mobile_navigation",
+    "mobile_prediction",
+    "mobile_scores_sum_to_100",
+    "mobile_no_overflow"
+  ],
+  "model_retrained": false
+}

@@ -1,0 +1,19 @@
+|--- flipper_length_mm <= 206.50
+|   |--- bill_length_mm <= 45.05
+|   |   |--- bill_length_mm <= 42.35
+|   |   |   |--- class: Adelie
+|   |   |--- bill_length_mm >  42.35
+|   |   |   |--- class: Adelie
+|   |--- bill_length_mm >  45.05
+|   |   |--- bill_depth_mm <= 20.15
+|   |   |   |--- class: Chinstrap
+|   |   |--- bill_depth_mm >  20.15
+|   |   |   |--- class: Adelie
+|--- flipper_length_mm >  206.50
+|   |--- bill_depth_mm <= 18.00
+|   |   |--- class: Gentoo
+|   |--- bill_depth_mm >  18.00
+|   |   |--- bill_length_mm <= 49.90
+|   |   |   |--- class: Chinstrap
+|   |   |--- bill_length_mm >  49.90
+|   |   |   |--- class: Chinstrap

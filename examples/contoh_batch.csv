@@ -1,0 +1,4 @@
+bill_length_mm,bill_depth_mm,flipper_length_mm,body_mass_g
+33.1,16.1,178.0,2900.0
+50.0,15.9,224.0,5350.0
+52.0,20.7,210.0,4800.0

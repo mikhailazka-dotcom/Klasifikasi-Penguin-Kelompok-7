@@ -1,0 +1,22 @@
+{
+  "executed_utc": "2026-11-06T04:37:37.886213+00:00",
+  "checks_passed": [
+    "single_Adelie",
+    "single_Chinstrap",
+    "single_Gentoo",
+    "batch_complete",
+    "batch_missing",
+    "batch_negative_rejected",
+    "evaluation_page",
+    "tree_page",
+    "dataset_page",
+    "reset_clears_result"
+  ],
+  "browser_page_errors": [],
+  "browser": "Chromium-based local Edge/Chrome",
+  "video": "video/demo_aplikasi.mp4",
+  "video_note": "Rekaman layar nyata tanpa narasi/perkenalan; belum video kelompok lengkap.",
+  "duration_metadata": [
+    "Duration: 00:01:20.16, start: 0.000000, bitrate: 172 kb/s"
+  ]
+}

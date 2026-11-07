@@ -1,0 +1,19 @@
+{
+  "verified_utc": "2026-11-06T04:39:29.940509+00:00",
+  "technical_checks_passed": true,
+  "required_files_checked": 33,
+  "pytest": {
+    "tests": 33,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "browser_checks": 10,
+  "notebook_run_all": true,
+  "artifact_hashes_match": true,
+  "selected_model": "KNN",
+  "group_identity_complete": false,
+  "final_group_video_complete": false,
+  "final_video_note": "Video yang disertakan adalah rekaman layar tanpa narasi/perkenalan kelompok. Finalisasi oleh kelompok.",
+  "teacher_approval_verified": false
+}

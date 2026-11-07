@@ -1,0 +1,227 @@
+/* Tampilan seperti mockup: putih, biru kehijauan, kartu lembut. Tanpa font CDN. */
+:root {
+  --penguin-navy: #153d4c;
+  --penguin-teal: #087f8c;
+  --penguin-muted: #6b8089;
+  --penguin-border: #dbe6e9;
+  --penguin-bg: #f2f6f7;
+}
+html, body, [class*="stApp"] {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.stApp { background: var(--penguin-bg); color: var(--penguin-navy); }
+header[data-testid="stHeader"] { top: 94px; background: transparent; height: 0; }
+[data-testid="stToolbar"] { top: 8px; right: 12px; }
+.block-container {
+  max-width: 1530px;
+  padding: 126px 40px 30px;
+}
+[data-testid="stElementContainer"]:has(> [data-testid="stMarkdown"] style) { display: none; }
+[data-testid="stElementContainer"]:has(.app-brandbar) { position: absolute; width: 0; height: 0; min-height: 0; }
+h1, h2, h3 { color: var(--penguin-navy); letter-spacing: -.035em; }
+h1 { font-size: 34px !important; font-weight: 800 !important; padding-top: 0 !important; }
+h2 { font-weight: 750 !important; }
+h3 { font-size: 25px !important; font-weight: 750 !important; }
+
+/* Header selebar layar, termasuk di atas navigasi. */
+.app-brandbar {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 999990;
+  height: 94px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 32px;
+  box-sizing: border-box;
+  background: #fff;
+  border-bottom: 1px solid var(--penguin-border);
+}
+.brand-icon {
+  width: 54px;
+  height: 58px;
+  border-radius: 17px;
+  background: #e9f5f5;
+  display: grid;
+  place-items: center;
+  flex: none;
+}
+.brand-icon svg { width: 43px; height: 53px; }
+.brand-name { color: var(--penguin-navy); font-size: 26px; font-weight: 800; line-height: 1.2; }
+.brand-subtitle { color: var(--penguin-muted); font-size: 13px; margin-top: 5px; }
+.brand-badge {
+  margin-left: auto;
+  padding: 9px 16px;
+  border-radius: 24px;
+  color: var(--penguin-teal);
+  background: #eaf5f5;
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: .06em;
+}
+
+/* Radio native tetap dipertahankan untuk keyboard dan screen reader. */
+section[data-testid="stSidebar"] {
+  margin-top: 94px;
+  height: calc(100dvh - 94px);
+  background: #fff;
+  border-right: 1px solid var(--penguin-border);
+}
+[data-testid="stSidebarContent"] { padding: 8px 0 0 !important; }
+[data-testid="stSidebarHeader"] { height: 24px; min-height: 24px; padding: 0; margin: 0 14px; }
+[data-testid="stSidebarUserContent"] { padding: 12px 20px; box-sizing: border-box; }
+[data-testid="stSidebar"] [data-testid="stRadio"] > [data-testid="stWidgetLabel"] p {
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: #6a7e87;
+  margin-bottom: 14px;
+}
+[data-testid="stSidebar"] [data-testid="stRadioGroup"] { gap: 8px; width: 100%; align-items: stretch; }
+[data-testid="stSidebar"] [data-testid="stRadioGroup"] > div { width: 100%; }
+[data-testid="stSidebar"] [data-testid="stRadioOption"] {
+  position: relative;
+  width: 100%;
+  min-height: 54px;
+  padding: 14px 18px;
+  border-radius: 13px;
+  box-sizing: border-box;
+  transition: background .15s ease;
+}
+[data-testid="stSidebar"] [data-testid="stRadioOption"] p { font-size: 16px; color: #647c86; }
+[data-testid="stSidebar"] [data-testid="stRadioOption"] > div > div:first-child { display: none; }
+[data-testid="stSidebar"] [data-testid="stRadioOption"]:hover { background: #f4f8f9; }
+[data-testid="stSidebar"] [data-testid="stRadioOption"][data-selected="true"] { background: #e7f4f4; }
+[data-testid="stSidebar"] [data-testid="stRadioOption"][data-selected="true"] p { color: #087f8c; font-weight: 750; }
+[data-testid="stSidebar"] [data-testid="stRadioOption"][data-selected="true"]::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15px;
+  bottom: 15px;
+  width: 4px;
+  background: #087f8c;
+  border-radius: 3px;
+}
+[data-testid="stSidebar"] [data-testid="stRadioOption"]:focus-within { outline: 2px solid #83bbc2; outline-offset: 2px; }
+.sidebar-label { color: #6a7e87; font-size: 11px; font-weight: 750; letter-spacing: .06em; margin: 4px 0 20px; }
+.sidebar-step { display: flex; gap: 12px; margin: 0 0 23px; align-items: flex-start; }
+.sidebar-step span { display: grid; place-items: center; width: 29px; height: 29px; background: #e9f5f5; color: #087f8c; font-size: 14px; font-weight: 750; border-radius: 50%; flex: none; }
+.sidebar-step strong { display: block; color: #24444f; font-size: 14px; margin: 0 0 4px; }
+.sidebar-step small { color: #71848c; font-size: 11px; line-height: 1.5; }
+.sidebar-species { background: #f3f7f8; border-radius: 16px; padding: 20px; margin-top: 12px; }
+.sidebar-species strong { display: block; font-size: 11px; color: #70838b; letter-spacing: .04em; margin-bottom: 15px; }
+.sidebar-species p { color: #25434f; font-size: 14px; font-weight: 650; margin: 0 0 10px; }
+
+/* Banner utama dan tab. */
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: #153d4c;
+  border-radius: 23px;
+  padding: 27px 30px;
+  margin: 16px 0 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.hero h2 { color: #fff !important; font-size: 27px !important; margin: 0 0 10px !important; padding: 0 !important; letter-spacing: -.03em; }
+.hero p { color: #d0e2e7 !important; margin: 0 0 9px !important; font-size: 17px; }
+.hero-illustration { display: grid; place-items: center; width: 135px; height: 135px; border-radius: 50%; background: #305d69; flex: none; margin-right: 3px; }
+.hero-illustration svg { width: 105px; height: 127px; }
+.tag { display: inline-block; background: #315e6a; border-radius: 24px; padding: 6px 14px; margin: 4px 7px 0 0; color: #fff; font-size: 12px; font-weight: 700; }
+[data-testid="stTabs"] [role="tablist"] { gap: 22px; background: transparent; }
+[data-testid="stTabs"] [role="tab"] { padding: 12px 0; color: #71848c; }
+[data-testid="stTabs"] [role="tab"][aria-selected="true"] { color: #087f8c; font-weight: 700; }
+
+/* Kartu pengukuran dan hasil. */
+.st-key-measurement_card, .st-key-result_card {
+  background: #fff;
+  border: 1px solid #dbe6e9 !important;
+  border-radius: 23px !important;
+  box-shadow: 0 5px 0 #e6eef0;
+  padding: 25px !important;
+  min-height: 735px;
+}
+.smallcaps { font-size: 11px; letter-spacing: .06em; font-weight: 750; color: #087f8c; margin: 0 0 4px; }
+.st-key-measurement_card [data-testid="stForm"] { border: none; padding: 8px 0 0; }
+.st-key-measurement_card [data-testid="stWidgetLabel"] p { font-size: 15px; color: #25434f; font-weight: 700; }
+.st-key-measurement_card [data-testid="stNumberInput"] { margin-bottom: 19px; }
+.st-key-measurement_card [data-testid="stNumberInputContainer"] {
+  height: 60px;
+  border: 1px solid #dae5e9;
+  border-radius: 11px;
+  background: #fbfcfd;
+  box-shadow: none;
+}
+.st-key-measurement_card [data-testid="stNumberInputContainer"]:focus-within { border-color: #087f8c; box-shadow: 0 0 0 2px #087f8c12; }
+.st-key-measurement_card [data-testid="stNumberInputField"] { background: transparent; padding: 13px 14px; color: #1c3e4c; font-size: 23px; font-weight: 750; min-width: 0; }
+.st-key-measurement_card [data-testid="stNumberInputStepDown"],
+.st-key-measurement_card [data-testid="stNumberInputStepUp"] { color: #7f979f; background: transparent; }
+.st-key-measurement_card [data-testid="stNumberInputContainer"]:has(input[aria-label*="(mm)"])::after { content: "mm"; padding-right: 8px; color: #748992; font-size: 12px; }
+.st-key-measurement_card [data-testid="stNumberInputContainer"]:has(input[aria-label*="(gram)"])::after { content: "g"; padding-right: 8px; color: #748992; font-size: 12px; }
+.st-key-measurement_card [data-testid="stCaptionContainer"] { color: #7a8e97; font-size: 12px; }
+[data-testid="stButton"] button, [data-testid="stDownloadButton"] button { border-radius: 10px; border-color: #d9e4e8; background: #fff; color: #087f8c; font-weight: 650; min-height: 42px; }
+[data-testid="stButton"] button:hover, [data-testid="stDownloadButton"] button:hover { border-color: #87bac0; background: #f0f8f8; color: #087f8c; }
+[data-testid="stButton"] button[kind="primary"], [data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"] { border-radius: 11px; background: #087f8c; border: 1px solid #087f8c; color: #fff; min-height: 55px; font-weight: 750; }
+[data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"] p { font-size: 17px; }
+[data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"]:hover { background: #076c77; border-color: #076c77; }
+.species { background: #eff7f7; border-radius: 17px; padding: 25px 20px; display: flex; align-items: center; gap: 24px; margin: 7px 0 18px; min-height: 202px; box-sizing: border-box; }
+.species > svg { width: 119px; height: 150px; flex: none; }
+.species h2 { color: #153d4c !important; font-size: 39px !important; font-weight: 800 !important; margin: 1px 0 7px !important; padding: 0 !important; }
+.species p { color: #728891; font-size: 14px; margin: 5px 0; }
+.species p:first-child { font-size: 10px; font-weight: 650; letter-spacing: .04em; }
+.score-heading { font-size: 14px; color: #25434f; font-weight: 750; margin: 3px 0 17px; }
+.score-row { display: flex; align-items: center; gap: 13px; min-height: 35px; margin: 0 0 8px; }
+.score-label { width: 80px; color: #284653; font-size: 14px; flex: none; }
+.score-label.is-selected { font-weight: 750; }
+.score-track { height: 9px; background: #e9f0f1; border-radius: 10px; flex: 1; overflow: hidden; }
+.score-fill { height: 100%; background: #9bbfc6; border-radius: 10px; }
+.score-fill.is-selected { background: #087f8c; }
+.score-number { width: 46px; text-align: right; font-size: 13px; font-weight: 700; color: #6c858f; flex: none; }
+[data-testid="stAlert"] { border-radius: 12px; }
+.st-key-result_card [data-testid="stAlertContainer"]:has([data-testid="stAlertContentInfo"]) { background: #f5f9fa; color: #69818b; border: 1px solid #e4edef; border-radius: 12px; }
+.st-key-result_card [data-testid="stAlertContentInfo"] p { color: #69818b; font-size: 12px; }
+[data-testid="stMetric"] { background: #fff; border: 1px solid #dce7eb; border-radius: 16px; padding: 17px; }
+.footer { border-top: 1px solid #d7e5e9; margin-top: 27px; padding: 17px 0 4px; color: #718790; font-size: 12px; }
+
+@media(min-width:1000px) {
+  section[data-testid="stSidebar"] { width: 250px !important; min-width: 250px !important; max-width: 250px !important; }
+}
+@media(max-width:1100px) {
+  .block-container { padding-left: 26px; padding-right: 26px; }
+  .hero h2 { font-size: 24px !important; }
+  .hero-illustration { width: 105px; height: 105px; }
+  .hero-illustration svg { width: 83px; height: 102px; }
+  .st-key-measurement_card, .st-key-result_card { padding: 20px !important; }
+  .species { gap: 14px; }
+  .species > svg { width: 92px; height: 122px; }
+  .species h2 { font-size: 30px !important; }
+}
+@media(max-width:640px) {
+  .app-brandbar { height: 78px; padding: 0 16px; gap: 11px; }
+  .brand-icon { width: 43px; height: 47px; border-radius: 13px; }
+  .brand-icon svg { width: 34px; height: 42px; }
+  .brand-name { font-size: 19px; }
+  .brand-subtitle { font-size: 10px; margin-top: 4px; }
+  .brand-badge { display: none; }
+  header[data-testid="stHeader"] { top: 79px; }
+  section[data-testid="stSidebar"] { margin-top: 78px; height: calc(100dvh - 78px); }
+  .block-container { padding: 143px 18px 24px; }
+  h1 { font-size: 27px !important; }
+  .hero { padding: 23px 20px; border-radius: 19px; margin-top: 10px; }
+  .hero h2 { font-size: 22px !important; }
+  .hero p { font-size: 14px; }
+  .hero-illustration { display: none; }
+  .tag { font-size: 10px; padding: 6px 10px; margin-right: 4px; }
+  .st-key-measurement_card, .st-key-result_card { padding: 19px !important; border-radius: 19px !important; min-height: auto; }
+  .species { gap: 14px; padding: 19px 14px; min-height: 165px; }
+  .species > svg { width: 80px; height: 110px; }
+  .species h2 { font-size: 28px !important; }
+  .species p { font-size: 12px; }
+  .score-row { gap: 8px; }
+  .score-label { width: 72px; font-size: 12px; }
+  .score-number { font-size: 12px; width: 43px; }
+}

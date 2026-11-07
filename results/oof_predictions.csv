@@ -1,0 +1,826 @@
+row_id,fold,model,actual,predicted,correct
+98,1,Logistic Regression,Adelie,Adelie,True
+275,1,Logistic Regression,Gentoo,Gentoo,True
+191,1,Logistic Regression,Gentoo,Gentoo,True
+19,1,Logistic Regression,Adelie,Adelie,True
+64,1,Logistic Regression,Adelie,Adelie,True
+42,1,Logistic Regression,Adelie,Adelie,True
+125,1,Logistic Regression,Adelie,Adelie,True
+148,1,Logistic Regression,Adelie,Adelie,True
+325,1,Logistic Regression,Chinstrap,Chinstrap,True
+173,1,Logistic Regression,Gentoo,Gentoo,True
+85,1,Logistic Regression,Adelie,Adelie,True
+117,1,Logistic Regression,Adelie,Adelie,True
+73,1,Logistic Regression,Adelie,Chinstrap,False
+154,1,Logistic Regression,Gentoo,Gentoo,True
+227,1,Logistic Regression,Gentoo,Gentoo,True
+147,1,Logistic Regression,Adelie,Adelie,True
+244,1,Logistic Regression,Gentoo,Gentoo,True
+104,1,Logistic Regression,Adelie,Adelie,True
+306,1,Logistic Regression,Chinstrap,Adelie,False
+312,1,Logistic Regression,Chinstrap,Chinstrap,True
+305,1,Logistic Regression,Chinstrap,Chinstrap,True
+166,1,Logistic Regression,Gentoo,Gentoo,True
+180,1,Logistic Regression,Gentoo,Gentoo,True
+33,1,Logistic Regression,Adelie,Adelie,True
+39,1,Logistic Regression,Adelie,Adelie,True
+51,1,Logistic Regression,Adelie,Adelie,True
+253,1,Logistic Regression,Gentoo,Gentoo,True
+56,1,Logistic Regression,Adelie,Adelie,True
+40,1,Logistic Regression,Adelie,Adelie,True
+34,1,Logistic Regression,Adelie,Adelie,True
+126,1,Logistic Regression,Adelie,Adelie,True
+231,1,Logistic Regression,Gentoo,Gentoo,True
+76,1,Logistic Regression,Adelie,Adelie,True
+247,1,Logistic Regression,Gentoo,Gentoo,True
+252,1,Logistic Regression,Gentoo,Gentoo,True
+285,1,Logistic Regression,Chinstrap,Chinstrap,True
+156,1,Logistic Regression,Gentoo,Gentoo,True
+223,1,Logistic Regression,Gentoo,Gentoo,True
+208,1,Logistic Regression,Gentoo,Gentoo,True
+240,1,Logistic Regression,Gentoo,Gentoo,True
+322,1,Logistic Regression,Chinstrap,Chinstrap,True
+233,1,Logistic Regression,Gentoo,Gentoo,True
+198,1,Logistic Regression,Gentoo,Gentoo,True
+4,1,Logistic Regression,Adelie,Adelie,True
+337,1,Logistic Regression,Chinstrap,Chinstrap,True
+328,1,Logistic Regression,Chinstrap,Chinstrap,True
+29,1,Logistic Regression,Adelie,Adelie,True
+63,1,Logistic Regression,Adelie,Adelie,True
+67,1,Logistic Regression,Adelie,Adelie,True
+339,1,Logistic Regression,Chinstrap,Chinstrap,True
+272,1,Logistic Regression,Gentoo,Gentoo,True
+127,1,Logistic Regression,Adelie,Adelie,True
+257,1,Logistic Regression,Gentoo,Gentoo,True
+335,1,Logistic Regression,Chinstrap,Chinstrap,True
+65,1,Logistic Regression,Adelie,Adelie,True
+114,2,Logistic Regression,Adelie,Adelie,True
+118,2,Logistic Regression,Adelie,Adelie,True
+201,2,Logistic Regression,Gentoo,Gentoo,True
+313,2,Logistic Regression,Chinstrap,Chinstrap,True
+144,2,Logistic Regression,Adelie,Adelie,True
+172,2,Logistic Regression,Gentoo,Gentoo,True
+80,2,Logistic Regression,Adelie,Adelie,True
+163,2,Logistic Regression,Gentoo,Gentoo,True
+113,2,Logistic Regression,Adelie,Adelie,True
+134,2,Logistic Regression,Adelie,Adelie,True
+190,2,Logistic Regression,Gentoo,Gentoo,True
+13,2,Logistic Regression,Adelie,Adelie,True
+84,2,Logistic Regression,Adelie,Adelie,True
+319,2,Logistic Regression,Chinstrap,Chinstrap,True
+278,2,Logistic Regression,Chinstrap,Chinstrap,True
+212,2,Logistic Regression,Gentoo,Gentoo,True
+340,2,Logistic Regression,Chinstrap,Chinstrap,True
+62,2,Logistic Regression,Adelie,Adelie,True
+81,2,Logistic Regression,Adelie,Adelie,True
+83,2,Logistic Regression,Adelie,Adelie,True
+309,2,Logistic Regression,Chinstrap,Chinstrap,True
+283,2,Logistic Regression,Chinstrap,Chinstrap,True
+15,2,Logistic Regression,Adelie,Adelie,True
+2,2,Logistic Regression,Adelie,Adelie,True
+203,2,Logistic Regression,Gentoo,Gentoo,True
+105,2,Logistic Regression,Adelie,Adelie,True
+112,2,Logistic Regression,Adelie,Adelie,True
+155,2,Logistic Regression,Gentoo,Gentoo,True
+157,2,Logistic Regression,Gentoo,Gentoo,True
+43,2,Logistic Regression,Adelie,Adelie,True
+9,2,Logistic Regression,Adelie,Adelie,True
+124,2,Logistic Regression,Adelie,Adelie,True
+120,2,Logistic Regression,Adelie,Adelie,True
+291,2,Logistic Regression,Chinstrap,Chinstrap,True
+254,2,Logistic Regression,Gentoo,Gentoo,True
+256,2,Logistic Regression,Gentoo,Gentoo,True
+72,2,Logistic Regression,Adelie,Adelie,True
+174,2,Logistic Regression,Gentoo,Gentoo,True
+215,2,Logistic Regression,Gentoo,Gentoo,True
+95,2,Logistic Regression,Adelie,Adelie,True
+205,2,Logistic Regression,Gentoo,Gentoo,True
+136,2,Logistic Regression,Adelie,Adelie,True
+115,2,Logistic Regression,Adelie,Adelie,True
+341,2,Logistic Regression,Chinstrap,Chinstrap,True
+122,2,Logistic Regression,Adelie,Adelie,True
+138,2,Logistic Regression,Adelie,Adelie,True
+169,2,Logistic Regression,Gentoo,Gentoo,True
+289,2,Logistic Regression,Chinstrap,Chinstrap,True
+294,2,Logistic Regression,Chinstrap,Chinstrap,True
+255,2,Logistic Regression,Gentoo,Gentoo,True
+196,2,Logistic Regression,Gentoo,Gentoo,True
+182,2,Logistic Regression,Gentoo,Gentoo,True
+192,2,Logistic Regression,Gentoo,Gentoo,True
+197,2,Logistic Regression,Gentoo,Gentoo,True
+342,2,Logistic Regression,Chinstrap,Chinstrap,True
+86,3,Logistic Regression,Adelie,Adelie,True
+238,3,Logistic Regression,Gentoo,Gentoo,True
+217,3,Logistic Regression,Gentoo,Gentoo,True
+36,3,Logistic Regression,Adelie,Adelie,True
+96,3,Logistic Regression,Adelie,Adelie,True
+251,3,Logistic Regression,Gentoo,Gentoo,True
+5,3,Logistic Regression,Adelie,Adelie,True
+234,3,Logistic Regression,Gentoo,Gentoo,True
+45,3,Logistic Regression,Adelie,Adelie,True
+331,3,Logistic Regression,Chinstrap,Chinstrap,True
+32,3,Logistic Regression,Adelie,Adelie,True
+35,3,Logistic Regression,Adelie,Adelie,True
+260,3,Logistic Regression,Gentoo,Gentoo,True
+261,3,Logistic Regression,Gentoo,Gentoo,True
+213,3,Logistic Regression,Gentoo,Gentoo,True
+100,3,Logistic Regression,Adelie,Adelie,True
+38,3,Logistic Regression,Adelie,Adelie,True
+6,3,Logistic Regression,Adelie,Adelie,True
+295,3,Logistic Regression,Chinstrap,Chinstrap,True
+301,3,Logistic Regression,Chinstrap,Chinstrap,True
+160,3,Logistic Regression,Gentoo,Gentoo,True
+46,3,Logistic Regression,Adelie,Adelie,True
+314,3,Logistic Regression,Chinstrap,Chinstrap,True
+77,3,Logistic Regression,Adelie,Adelie,True
+16,3,Logistic Regression,Adelie,Adelie,True
+336,3,Logistic Regression,Chinstrap,Chinstrap,True
+236,3,Logistic Regression,Gentoo,Gentoo,True
+273,3,Logistic Regression,Gentoo,Gentoo,True
+263,3,Logistic Regression,Gentoo,Gentoo,True
+316,3,Logistic Regression,Chinstrap,Chinstrap,True
+209,3,Logistic Regression,Gentoo,Gentoo,True
+132,3,Logistic Regression,Adelie,Adelie,True
+123,3,Logistic Regression,Adelie,Adelie,True
+8,3,Logistic Regression,Adelie,Adelie,True
+188,3,Logistic Regression,Gentoo,Gentoo,True
+185,3,Logistic Regression,Gentoo,Gentoo,True
+268,3,Logistic Regression,Gentoo,Gentoo,True
+323,3,Logistic Regression,Chinstrap,Chinstrap,True
+179,3,Logistic Regression,Gentoo,Gentoo,True
+25,3,Logistic Regression,Adelie,Adelie,True
+12,3,Logistic Regression,Adelie,Adelie,True
+24,3,Logistic Regression,Adelie,Adelie,True
+93,3,Logistic Regression,Adelie,Adelie,True
+280,3,Logistic Regression,Chinstrap,Chinstrap,True
+243,3,Logistic Regression,Gentoo,Gentoo,True
+343,3,Logistic Regression,Chinstrap,Chinstrap,True
+242,3,Logistic Regression,Gentoo,Gentoo,True
+49,3,Logistic Regression,Adelie,Adelie,True
+302,3,Logistic Regression,Chinstrap,Chinstrap,True
+338,3,Logistic Regression,Chinstrap,Chinstrap,True
+202,3,Logistic Regression,Gentoo,Gentoo,True
+137,3,Logistic Regression,Adelie,Adelie,True
+139,3,Logistic Regression,Adelie,Adelie,True
+177,3,Logistic Regression,Gentoo,Gentoo,True
+75,3,Logistic Regression,Adelie,Adelie,True
+141,4,Logistic Regression,Adelie,Adelie,True
+194,4,Logistic Regression,Gentoo,Gentoo,True
+165,4,Logistic Regression,Gentoo,Gentoo,True
+109,4,Logistic Regression,Adelie,Adelie,True
+330,4,Logistic Regression,Chinstrap,Adelie,False
+97,4,Logistic Regression,Adelie,Adelie,True
+274,4,Logistic Regression,Gentoo,Gentoo,True
+250,4,Logistic Regression,Gentoo,Gentoo,True
+286,4,Logistic Regression,Chinstrap,Chinstrap,True
+61,4,Logistic Regression,Adelie,Adelie,True
+245,4,Logistic Regression,Gentoo,Gentoo,True
+259,4,Logistic Regression,Gentoo,Gentoo,True
+333,4,Logistic Regression,Chinstrap,Chinstrap,True
+230,4,Logistic Regression,Gentoo,Gentoo,True
+53,4,Logistic Regression,Adelie,Adelie,True
+28,4,Logistic Regression,Adelie,Adelie,True
+128,4,Logistic Regression,Adelie,Adelie,True
+225,4,Logistic Regression,Gentoo,Gentoo,True
+300,4,Logistic Regression,Chinstrap,Chinstrap,True
+276,4,Logistic Regression,Chinstrap,Chinstrap,True
+176,4,Logistic Regression,Gentoo,Gentoo,True
+199,4,Logistic Regression,Gentoo,Gentoo,True
+287,4,Logistic Regression,Chinstrap,Chinstrap,True
+164,4,Logistic Regression,Gentoo,Gentoo,True
+31,4,Logistic Regression,Adelie,Adelie,True
+119,4,Logistic Regression,Adelie,Adelie,True
+68,4,Logistic Regression,Adelie,Adelie,True
+193,4,Logistic Regression,Gentoo,Gentoo,True
+50,4,Logistic Regression,Adelie,Adelie,True
+171,4,Logistic Regression,Gentoo,Gentoo,True
+17,4,Logistic Regression,Adelie,Adelie,True
+111,4,Logistic Regression,Adelie,Adelie,True
+70,4,Logistic Regression,Adelie,Adelie,True
+135,4,Logistic Regression,Adelie,Adelie,True
+143,4,Logistic Regression,Adelie,Adelie,True
+271,4,Logistic Regression,Gentoo,Adelie,False
+152,4,Logistic Regression,Gentoo,Gentoo,True
+44,4,Logistic Regression,Adelie,Adelie,True
+7,4,Logistic Regression,Adelie,Adelie,True
+292,4,Logistic Regression,Chinstrap,Chinstrap,True
+296,4,Logistic Regression,Chinstrap,Adelie,False
+94,4,Logistic Regression,Adelie,Adelie,True
+332,4,Logistic Regression,Chinstrap,Chinstrap,True
+320,4,Logistic Regression,Chinstrap,Chinstrap,True
+158,4,Logistic Regression,Gentoo,Gentoo,True
+187,4,Logistic Regression,Gentoo,Gentoo,True
+284,4,Logistic Regression,Chinstrap,Adelie,False
+66,4,Logistic Regression,Adelie,Adelie,True
+264,4,Logistic Regression,Gentoo,Gentoo,True
+30,4,Logistic Regression,Adelie,Adelie,True
+23,4,Logistic Regression,Adelie,Adelie,True
+107,4,Logistic Regression,Adelie,Adelie,True
+222,4,Logistic Regression,Gentoo,Gentoo,True
+161,4,Logistic Regression,Gentoo,Gentoo,True
+10,4,Logistic Regression,Adelie,Adelie,True
+235,5,Logistic Regression,Gentoo,Gentoo,True
+265,5,Logistic Regression,Gentoo,Gentoo,True
+232,5,Logistic Regression,Gentoo,Gentoo,True
+3,5,Logistic Regression,Adelie,Chinstrap,False
+78,5,Logistic Regression,Adelie,Adelie,True
+228,5,Logistic Regression,Gentoo,Gentoo,True
+47,5,Logistic Regression,Adelie,Adelie,True
+310,5,Logistic Regression,Chinstrap,Chinstrap,True
+18,5,Logistic Regression,Adelie,Adelie,True
+184,5,Logistic Regression,Gentoo,Gentoo,True
+267,5,Logistic Regression,Gentoo,Gentoo,True
+229,5,Logistic Regression,Gentoo,Gentoo,True
+26,5,Logistic Regression,Adelie,Adelie,True
+101,5,Logistic Regression,Adelie,Adelie,True
+216,5,Logistic Regression,Gentoo,Gentoo,True
+159,5,Logistic Regression,Gentoo,Gentoo,True
+150,5,Logistic Regression,Adelie,Adelie,True
+308,5,Logistic Regression,Chinstrap,Chinstrap,True
+211,5,Logistic Regression,Gentoo,Gentoo,True
+27,5,Logistic Regression,Adelie,Adelie,True
+266,5,Logistic Regression,Gentoo,Gentoo,True
+321,5,Logistic Regression,Chinstrap,Chinstrap,True
+239,5,Logistic Regression,Gentoo,Gentoo,True
+299,5,Logistic Regression,Chinstrap,Chinstrap,True
+22,5,Logistic Regression,Adelie,Adelie,True
+89,5,Logistic Regression,Adelie,Adelie,True
+262,5,Logistic Regression,Gentoo,Gentoo,True
+178,5,Logistic Regression,Gentoo,Gentoo,True
+329,5,Logistic Regression,Chinstrap,Chinstrap,True
+246,5,Logistic Regression,Gentoo,Gentoo,True
+293,5,Logistic Regression,Chinstrap,Chinstrap,True
+149,5,Logistic Regression,Adelie,Adelie,True
+279,5,Logistic Regression,Chinstrap,Chinstrap,True
+218,5,Logistic Regression,Gentoo,Gentoo,True
+214,5,Logistic Regression,Gentoo,Gentoo,True
+200,5,Logistic Regression,Gentoo,Gentoo,True
+110,5,Logistic Regression,Adelie,Adelie,True
+131,5,Logistic Regression,Adelie,Adelie,True
+69,5,Logistic Regression,Adelie,Adelie,True
+181,5,Logistic Regression,Gentoo,Gentoo,True
+54,5,Logistic Regression,Adelie,Adelie,True
+11,5,Logistic Regression,Adelie,Adelie,True
+108,5,Logistic Regression,Adelie,Adelie,True
+315,5,Logistic Regression,Chinstrap,Chinstrap,True
+324,5,Logistic Regression,Chinstrap,Chinstrap,True
+55,5,Logistic Regression,Adelie,Adelie,True
+281,5,Logistic Regression,Chinstrap,Chinstrap,True
+133,5,Logistic Regression,Adelie,Adelie,True
+0,5,Logistic Regression,Adelie,Adelie,True
+186,5,Logistic Regression,Gentoo,Gentoo,True
+60,5,Logistic Regression,Adelie,Adelie,True
+145,5,Logistic Regression,Adelie,Adelie,True
+140,5,Logistic Regression,Adelie,Adelie,True
+327,5,Logistic Regression,Chinstrap,Chinstrap,True
+82,5,Logistic Regression,Adelie,Adelie,True
+98,1,KNN,Adelie,Adelie,True
+275,1,KNN,Gentoo,Gentoo,True
+191,1,KNN,Gentoo,Gentoo,True
+19,1,KNN,Adelie,Adelie,True
+64,1,KNN,Adelie,Adelie,True
+42,1,KNN,Adelie,Adelie,True
+125,1,KNN,Adelie,Adelie,True
+148,1,KNN,Adelie,Adelie,True
+325,1,KNN,Chinstrap,Chinstrap,True
+173,1,KNN,Gentoo,Gentoo,True
+85,1,KNN,Adelie,Adelie,True
+117,1,KNN,Adelie,Adelie,True
+73,1,KNN,Adelie,Adelie,True
+154,1,KNN,Gentoo,Gentoo,True
+227,1,KNN,Gentoo,Gentoo,True
+147,1,KNN,Adelie,Adelie,True
+244,1,KNN,Gentoo,Gentoo,True
+104,1,KNN,Adelie,Adelie,True
+306,1,KNN,Chinstrap,Adelie,False
+312,1,KNN,Chinstrap,Chinstrap,True
+305,1,KNN,Chinstrap,Chinstrap,True
+166,1,KNN,Gentoo,Gentoo,True
+180,1,KNN,Gentoo,Gentoo,True
+33,1,KNN,Adelie,Adelie,True
+39,1,KNN,Adelie,Adelie,True
+51,1,KNN,Adelie,Adelie,True
+253,1,KNN,Gentoo,Gentoo,True
+56,1,KNN,Adelie,Adelie,True
+40,1,KNN,Adelie,Adelie,True
+34,1,KNN,Adelie,Adelie,True
+126,1,KNN,Adelie,Adelie,True
+231,1,KNN,Gentoo,Gentoo,True
+76,1,KNN,Adelie,Adelie,True
+247,1,KNN,Gentoo,Gentoo,True
+252,1,KNN,Gentoo,Gentoo,True
+285,1,KNN,Chinstrap,Chinstrap,True
+156,1,KNN,Gentoo,Gentoo,True
+223,1,KNN,Gentoo,Gentoo,True
+208,1,KNN,Gentoo,Gentoo,True
+240,1,KNN,Gentoo,Gentoo,True
+322,1,KNN,Chinstrap,Chinstrap,True
+233,1,KNN,Gentoo,Gentoo,True
+198,1,KNN,Gentoo,Gentoo,True
+4,1,KNN,Adelie,Adelie,True
+337,1,KNN,Chinstrap,Chinstrap,True
+328,1,KNN,Chinstrap,Chinstrap,True
+29,1,KNN,Adelie,Adelie,True
+63,1,KNN,Adelie,Adelie,True
+67,1,KNN,Adelie,Adelie,True
+339,1,KNN,Chinstrap,Chinstrap,True
+272,1,KNN,Gentoo,Gentoo,True
+127,1,KNN,Adelie,Adelie,True
+257,1,KNN,Gentoo,Gentoo,True
+335,1,KNN,Chinstrap,Chinstrap,True
+65,1,KNN,Adelie,Adelie,True
+114,2,KNN,Adelie,Adelie,True
+118,2,KNN,Adelie,Adelie,True
+201,2,KNN,Gentoo,Gentoo,True
+313,2,KNN,Chinstrap,Chinstrap,True
+144,2,KNN,Adelie,Adelie,True
+172,2,KNN,Gentoo,Gentoo,True
+80,2,KNN,Adelie,Adelie,True
+163,2,KNN,Gentoo,Gentoo,True
+113,2,KNN,Adelie,Adelie,True
+134,2,KNN,Adelie,Adelie,True
+190,2,KNN,Gentoo,Gentoo,True
+13,2,KNN,Adelie,Adelie,True
+84,2,KNN,Adelie,Adelie,True
+319,2,KNN,Chinstrap,Chinstrap,True
+278,2,KNN,Chinstrap,Chinstrap,True
+212,2,KNN,Gentoo,Gentoo,True
+340,2,KNN,Chinstrap,Chinstrap,True
+62,2,KNN,Adelie,Adelie,True
+81,2,KNN,Adelie,Adelie,True
+83,2,KNN,Adelie,Adelie,True
+309,2,KNN,Chinstrap,Chinstrap,True
+283,2,KNN,Chinstrap,Chinstrap,True
+15,2,KNN,Adelie,Adelie,True
+2,2,KNN,Adelie,Adelie,True
+203,2,KNN,Gentoo,Gentoo,True
+105,2,KNN,Adelie,Adelie,True
+112,2,KNN,Adelie,Adelie,True
+155,2,KNN,Gentoo,Gentoo,True
+157,2,KNN,Gentoo,Gentoo,True
+43,2,KNN,Adelie,Adelie,True
+9,2,KNN,Adelie,Adelie,True
+124,2,KNN,Adelie,Adelie,True
+120,2,KNN,Adelie,Adelie,True
+291,2,KNN,Chinstrap,Chinstrap,True
+254,2,KNN,Gentoo,Gentoo,True
+256,2,KNN,Gentoo,Gentoo,True
+72,2,KNN,Adelie,Adelie,True
+174,2,KNN,Gentoo,Gentoo,True
+215,2,KNN,Gentoo,Gentoo,True
+95,2,KNN,Adelie,Adelie,True
+205,2,KNN,Gentoo,Gentoo,True
+136,2,KNN,Adelie,Adelie,True
+115,2,KNN,Adelie,Adelie,True
+341,2,KNN,Chinstrap,Chinstrap,True
+122,2,KNN,Adelie,Adelie,True
+138,2,KNN,Adelie,Adelie,True
+169,2,KNN,Gentoo,Gentoo,True
+289,2,KNN,Chinstrap,Chinstrap,True
+294,2,KNN,Chinstrap,Chinstrap,True
+255,2,KNN,Gentoo,Gentoo,True
+196,2,KNN,Gentoo,Gentoo,True
+182,2,KNN,Gentoo,Gentoo,True
+192,2,KNN,Gentoo,Gentoo,True
+197,2,KNN,Gentoo,Gentoo,True
+342,2,KNN,Chinstrap,Chinstrap,True
+86,3,KNN,Adelie,Adelie,True
+238,3,KNN,Gentoo,Gentoo,True
+217,3,KNN,Gentoo,Gentoo,True
+36,3,KNN,Adelie,Adelie,True
+96,3,KNN,Adelie,Adelie,True
+251,3,KNN,Gentoo,Gentoo,True
+5,3,KNN,Adelie,Adelie,True
+234,3,KNN,Gentoo,Gentoo,True
+45,3,KNN,Adelie,Adelie,True
+331,3,KNN,Chinstrap,Chinstrap,True
+32,3,KNN,Adelie,Adelie,True
+35,3,KNN,Adelie,Adelie,True
+260,3,KNN,Gentoo,Gentoo,True
+261,3,KNN,Gentoo,Gentoo,True
+213,3,KNN,Gentoo,Gentoo,True
+100,3,KNN,Adelie,Adelie,True
+38,3,KNN,Adelie,Adelie,True
+6,3,KNN,Adelie,Adelie,True
+295,3,KNN,Chinstrap,Chinstrap,True
+301,3,KNN,Chinstrap,Chinstrap,True
+160,3,KNN,Gentoo,Gentoo,True
+46,3,KNN,Adelie,Adelie,True
+314,3,KNN,Chinstrap,Chinstrap,True
+77,3,KNN,Adelie,Adelie,True
+16,3,KNN,Adelie,Adelie,True
+336,3,KNN,Chinstrap,Chinstrap,True
+236,3,KNN,Gentoo,Gentoo,True
+273,3,KNN,Gentoo,Gentoo,True
+263,3,KNN,Gentoo,Gentoo,True
+316,3,KNN,Chinstrap,Chinstrap,True
+209,3,KNN,Gentoo,Gentoo,True
+132,3,KNN,Adelie,Adelie,True
+123,3,KNN,Adelie,Adelie,True
+8,3,KNN,Adelie,Adelie,True
+188,3,KNN,Gentoo,Gentoo,True
+185,3,KNN,Gentoo,Gentoo,True
+268,3,KNN,Gentoo,Gentoo,True
+323,3,KNN,Chinstrap,Chinstrap,True
+179,3,KNN,Gentoo,Gentoo,True
+25,3,KNN,Adelie,Adelie,True
+12,3,KNN,Adelie,Adelie,True
+24,3,KNN,Adelie,Adelie,True
+93,3,KNN,Adelie,Adelie,True
+280,3,KNN,Chinstrap,Chinstrap,True
+243,3,KNN,Gentoo,Gentoo,True
+343,3,KNN,Chinstrap,Chinstrap,True
+242,3,KNN,Gentoo,Gentoo,True
+49,3,KNN,Adelie,Adelie,True
+302,3,KNN,Chinstrap,Chinstrap,True
+338,3,KNN,Chinstrap,Chinstrap,True
+202,3,KNN,Gentoo,Gentoo,True
+137,3,KNN,Adelie,Adelie,True
+139,3,KNN,Adelie,Adelie,True
+177,3,KNN,Gentoo,Gentoo,True
+75,3,KNN,Adelie,Adelie,True
+141,4,KNN,Adelie,Adelie,True
+194,4,KNN,Gentoo,Gentoo,True
+165,4,KNN,Gentoo,Gentoo,True
+109,4,KNN,Adelie,Adelie,True
+330,4,KNN,Chinstrap,Adelie,False
+97,4,KNN,Adelie,Adelie,True
+274,4,KNN,Gentoo,Gentoo,True
+250,4,KNN,Gentoo,Gentoo,True
+286,4,KNN,Chinstrap,Chinstrap,True
+61,4,KNN,Adelie,Adelie,True
+245,4,KNN,Gentoo,Gentoo,True
+259,4,KNN,Gentoo,Gentoo,True
+333,4,KNN,Chinstrap,Chinstrap,True
+230,4,KNN,Gentoo,Gentoo,True
+53,4,KNN,Adelie,Adelie,True
+28,4,KNN,Adelie,Adelie,True
+128,4,KNN,Adelie,Adelie,True
+225,4,KNN,Gentoo,Gentoo,True
+300,4,KNN,Chinstrap,Chinstrap,True
+276,4,KNN,Chinstrap,Chinstrap,True
+176,4,KNN,Gentoo,Gentoo,True
+199,4,KNN,Gentoo,Gentoo,True
+287,4,KNN,Chinstrap,Chinstrap,True
+164,4,KNN,Gentoo,Gentoo,True
+31,4,KNN,Adelie,Adelie,True
+119,4,KNN,Adelie,Adelie,True
+68,4,KNN,Adelie,Adelie,True
+193,4,KNN,Gentoo,Gentoo,True
+50,4,KNN,Adelie,Adelie,True
+171,4,KNN,Gentoo,Gentoo,True
+17,4,KNN,Adelie,Adelie,True
+111,4,KNN,Adelie,Adelie,True
+70,4,KNN,Adelie,Adelie,True
+135,4,KNN,Adelie,Adelie,True
+143,4,KNN,Adelie,Adelie,True
+271,4,KNN,Gentoo,Chinstrap,False
+152,4,KNN,Gentoo,Gentoo,True
+44,4,KNN,Adelie,Adelie,True
+7,4,KNN,Adelie,Adelie,True
+292,4,KNN,Chinstrap,Chinstrap,True
+296,4,KNN,Chinstrap,Adelie,False
+94,4,KNN,Adelie,Adelie,True
+332,4,KNN,Chinstrap,Chinstrap,True
+320,4,KNN,Chinstrap,Chinstrap,True
+158,4,KNN,Gentoo,Gentoo,True
+187,4,KNN,Gentoo,Gentoo,True
+284,4,KNN,Chinstrap,Adelie,False
+66,4,KNN,Adelie,Adelie,True
+264,4,KNN,Gentoo,Gentoo,True
+30,4,KNN,Adelie,Adelie,True
+23,4,KNN,Adelie,Adelie,True
+107,4,KNN,Adelie,Adelie,True
+222,4,KNN,Gentoo,Gentoo,True
+161,4,KNN,Gentoo,Gentoo,True
+10,4,KNN,Adelie,Adelie,True
+235,5,KNN,Gentoo,Gentoo,True
+265,5,KNN,Gentoo,Gentoo,True
+232,5,KNN,Gentoo,Gentoo,True
+3,5,KNN,Adelie,Chinstrap,False
+78,5,KNN,Adelie,Adelie,True
+228,5,KNN,Gentoo,Gentoo,True
+47,5,KNN,Adelie,Adelie,True
+310,5,KNN,Chinstrap,Chinstrap,True
+18,5,KNN,Adelie,Adelie,True
+184,5,KNN,Gentoo,Gentoo,True
+267,5,KNN,Gentoo,Gentoo,True
+229,5,KNN,Gentoo,Gentoo,True
+26,5,KNN,Adelie,Adelie,True
+101,5,KNN,Adelie,Adelie,True
+216,5,KNN,Gentoo,Gentoo,True
+159,5,KNN,Gentoo,Gentoo,True
+150,5,KNN,Adelie,Adelie,True
+308,5,KNN,Chinstrap,Chinstrap,True
+211,5,KNN,Gentoo,Gentoo,True
+27,5,KNN,Adelie,Adelie,True
+266,5,KNN,Gentoo,Gentoo,True
+321,5,KNN,Chinstrap,Chinstrap,True
+239,5,KNN,Gentoo,Gentoo,True
+299,5,KNN,Chinstrap,Chinstrap,True
+22,5,KNN,Adelie,Adelie,True
+89,5,KNN,Adelie,Adelie,True
+262,5,KNN,Gentoo,Gentoo,True
+178,5,KNN,Gentoo,Gentoo,True
+329,5,KNN,Chinstrap,Chinstrap,True
+246,5,KNN,Gentoo,Gentoo,True
+293,5,KNN,Chinstrap,Chinstrap,True
+149,5,KNN,Adelie,Adelie,True
+279,5,KNN,Chinstrap,Chinstrap,True
+218,5,KNN,Gentoo,Gentoo,True
+214,5,KNN,Gentoo,Gentoo,True
+200,5,KNN,Gentoo,Gentoo,True
+110,5,KNN,Adelie,Adelie,True
+131,5,KNN,Adelie,Adelie,True
+69,5,KNN,Adelie,Adelie,True
+181,5,KNN,Gentoo,Gentoo,True
+54,5,KNN,Adelie,Adelie,True
+11,5,KNN,Adelie,Adelie,True
+108,5,KNN,Adelie,Adelie,True
+315,5,KNN,Chinstrap,Chinstrap,True
+324,5,KNN,Chinstrap,Chinstrap,True
+55,5,KNN,Adelie,Adelie,True
+281,5,KNN,Chinstrap,Chinstrap,True
+133,5,KNN,Adelie,Adelie,True
+0,5,KNN,Adelie,Adelie,True
+186,5,KNN,Gentoo,Gentoo,True
+60,5,KNN,Adelie,Adelie,True
+145,5,KNN,Adelie,Adelie,True
+140,5,KNN,Adelie,Adelie,True
+327,5,KNN,Chinstrap,Chinstrap,True
+82,5,KNN,Adelie,Adelie,True
+98,1,Decision Tree,Adelie,Adelie,True
+275,1,Decision Tree,Gentoo,Gentoo,True
+191,1,Decision Tree,Gentoo,Gentoo,True
+19,1,Decision Tree,Adelie,Chinstrap,False
+64,1,Decision Tree,Adelie,Adelie,True
+42,1,Decision Tree,Adelie,Adelie,True
+125,1,Decision Tree,Adelie,Adelie,True
+148,1,Decision Tree,Adelie,Adelie,True
+325,1,Decision Tree,Chinstrap,Chinstrap,True
+173,1,Decision Tree,Gentoo,Gentoo,True
+85,1,Decision Tree,Adelie,Adelie,True
+117,1,Decision Tree,Adelie,Adelie,True
+73,1,Decision Tree,Adelie,Chinstrap,False
+154,1,Decision Tree,Gentoo,Gentoo,True
+227,1,Decision Tree,Gentoo,Gentoo,True
+147,1,Decision Tree,Adelie,Adelie,True
+244,1,Decision Tree,Gentoo,Gentoo,True
+104,1,Decision Tree,Adelie,Adelie,True
+306,1,Decision Tree,Chinstrap,Adelie,False
+312,1,Decision Tree,Chinstrap,Chinstrap,True
+305,1,Decision Tree,Chinstrap,Adelie,False
+166,1,Decision Tree,Gentoo,Gentoo,True
+180,1,Decision Tree,Gentoo,Gentoo,True
+33,1,Decision Tree,Adelie,Adelie,True
+39,1,Decision Tree,Adelie,Adelie,True
+51,1,Decision Tree,Adelie,Adelie,True
+253,1,Decision Tree,Gentoo,Gentoo,True
+56,1,Decision Tree,Adelie,Adelie,True
+40,1,Decision Tree,Adelie,Adelie,True
+34,1,Decision Tree,Adelie,Adelie,True
+126,1,Decision Tree,Adelie,Adelie,True
+231,1,Decision Tree,Gentoo,Gentoo,True
+76,1,Decision Tree,Adelie,Adelie,True
+247,1,Decision Tree,Gentoo,Gentoo,True
+252,1,Decision Tree,Gentoo,Gentoo,True
+285,1,Decision Tree,Chinstrap,Chinstrap,True
+156,1,Decision Tree,Gentoo,Gentoo,True
+223,1,Decision Tree,Gentoo,Gentoo,True
+208,1,Decision Tree,Gentoo,Gentoo,True
+240,1,Decision Tree,Gentoo,Gentoo,True
+322,1,Decision Tree,Chinstrap,Chinstrap,True
+233,1,Decision Tree,Gentoo,Gentoo,True
+198,1,Decision Tree,Gentoo,Gentoo,True
+4,1,Decision Tree,Adelie,Adelie,True
+337,1,Decision Tree,Chinstrap,Chinstrap,True
+328,1,Decision Tree,Chinstrap,Chinstrap,True
+29,1,Decision Tree,Adelie,Adelie,True
+63,1,Decision Tree,Adelie,Adelie,True
+67,1,Decision Tree,Adelie,Adelie,True
+339,1,Decision Tree,Chinstrap,Chinstrap,True
+272,1,Decision Tree,Gentoo,Gentoo,True
+127,1,Decision Tree,Adelie,Adelie,True
+257,1,Decision Tree,Gentoo,Gentoo,True
+335,1,Decision Tree,Chinstrap,Chinstrap,True
+65,1,Decision Tree,Adelie,Adelie,True
+114,2,Decision Tree,Adelie,Adelie,True
+118,2,Decision Tree,Adelie,Adelie,True
+201,2,Decision Tree,Gentoo,Gentoo,True
+313,2,Decision Tree,Chinstrap,Chinstrap,True
+144,2,Decision Tree,Adelie,Adelie,True
+172,2,Decision Tree,Gentoo,Gentoo,True
+80,2,Decision Tree,Adelie,Adelie,True
+163,2,Decision Tree,Gentoo,Gentoo,True
+113,2,Decision Tree,Adelie,Adelie,True
+134,2,Decision Tree,Adelie,Adelie,True
+190,2,Decision Tree,Gentoo,Gentoo,True
+13,2,Decision Tree,Adelie,Adelie,True
+84,2,Decision Tree,Adelie,Adelie,True
+319,2,Decision Tree,Chinstrap,Chinstrap,True
+278,2,Decision Tree,Chinstrap,Chinstrap,True
+212,2,Decision Tree,Gentoo,Gentoo,True
+340,2,Decision Tree,Chinstrap,Adelie,False
+62,2,Decision Tree,Adelie,Adelie,True
+81,2,Decision Tree,Adelie,Adelie,True
+83,2,Decision Tree,Adelie,Adelie,True
+309,2,Decision Tree,Chinstrap,Chinstrap,True
+283,2,Decision Tree,Chinstrap,Chinstrap,True
+15,2,Decision Tree,Adelie,Adelie,True
+2,2,Decision Tree,Adelie,Adelie,True
+203,2,Decision Tree,Gentoo,Gentoo,True
+105,2,Decision Tree,Adelie,Adelie,True
+112,2,Decision Tree,Adelie,Adelie,True
+155,2,Decision Tree,Gentoo,Gentoo,True
+157,2,Decision Tree,Gentoo,Gentoo,True
+43,2,Decision Tree,Adelie,Adelie,True
+9,2,Decision Tree,Adelie,Adelie,True
+124,2,Decision Tree,Adelie,Adelie,True
+120,2,Decision Tree,Adelie,Adelie,True
+291,2,Decision Tree,Chinstrap,Chinstrap,True
+254,2,Decision Tree,Gentoo,Gentoo,True
+256,2,Decision Tree,Gentoo,Gentoo,True
+72,2,Decision Tree,Adelie,Adelie,True
+174,2,Decision Tree,Gentoo,Gentoo,True
+215,2,Decision Tree,Gentoo,Gentoo,True
+95,2,Decision Tree,Adelie,Chinstrap,False
+205,2,Decision Tree,Gentoo,Gentoo,True
+136,2,Decision Tree,Adelie,Adelie,True
+115,2,Decision Tree,Adelie,Adelie,True
+341,2,Decision Tree,Chinstrap,Chinstrap,True
+122,2,Decision Tree,Adelie,Adelie,True
+138,2,Decision Tree,Adelie,Adelie,True
+169,2,Decision Tree,Gentoo,Gentoo,True
+289,2,Decision Tree,Chinstrap,Chinstrap,True
+294,2,Decision Tree,Chinstrap,Chinstrap,True
+255,2,Decision Tree,Gentoo,Gentoo,True
+196,2,Decision Tree,Gentoo,Gentoo,True
+182,2,Decision Tree,Gentoo,Gentoo,True
+192,2,Decision Tree,Gentoo,Gentoo,True
+197,2,Decision Tree,Gentoo,Gentoo,True
+342,2,Decision Tree,Chinstrap,Chinstrap,True
+86,3,Decision Tree,Adelie,Adelie,True
+238,3,Decision Tree,Gentoo,Gentoo,True
+217,3,Decision Tree,Gentoo,Gentoo,True
+36,3,Decision Tree,Adelie,Adelie,True
+96,3,Decision Tree,Adelie,Adelie,True
+251,3,Decision Tree,Gentoo,Gentoo,True
+5,3,Decision Tree,Adelie,Adelie,True
+234,3,Decision Tree,Gentoo,Gentoo,True
+45,3,Decision Tree,Adelie,Adelie,True
+331,3,Decision Tree,Chinstrap,Chinstrap,True
+32,3,Decision Tree,Adelie,Adelie,True
+35,3,Decision Tree,Adelie,Adelie,True
+260,3,Decision Tree,Gentoo,Gentoo,True
+261,3,Decision Tree,Gentoo,Gentoo,True
+213,3,Decision Tree,Gentoo,Gentoo,True
+100,3,Decision Tree,Adelie,Adelie,True
+38,3,Decision Tree,Adelie,Adelie,True
+6,3,Decision Tree,Adelie,Adelie,True
+295,3,Decision Tree,Chinstrap,Chinstrap,True
+301,3,Decision Tree,Chinstrap,Chinstrap,True
+160,3,Decision Tree,Gentoo,Gentoo,True
+46,3,Decision Tree,Adelie,Adelie,True
+314,3,Decision Tree,Chinstrap,Chinstrap,True
+77,3,Decision Tree,Adelie,Adelie,True
+16,3,Decision Tree,Adelie,Adelie,True
+336,3,Decision Tree,Chinstrap,Chinstrap,True
+236,3,Decision Tree,Gentoo,Gentoo,True
+273,3,Decision Tree,Gentoo,Gentoo,True
+263,3,Decision Tree,Gentoo,Gentoo,True
+316,3,Decision Tree,Chinstrap,Chinstrap,True
+209,3,Decision Tree,Gentoo,Gentoo,True
+132,3,Decision Tree,Adelie,Adelie,True
+123,3,Decision Tree,Adelie,Adelie,True
+8,3,Decision Tree,Adelie,Adelie,True
+188,3,Decision Tree,Gentoo,Gentoo,True
+185,3,Decision Tree,Gentoo,Gentoo,True
+268,3,Decision Tree,Gentoo,Gentoo,True
+323,3,Decision Tree,Chinstrap,Chinstrap,True
+179,3,Decision Tree,Gentoo,Gentoo,True
+25,3,Decision Tree,Adelie,Adelie,True
+12,3,Decision Tree,Adelie,Adelie,True
+24,3,Decision Tree,Adelie,Adelie,True
+93,3,Decision Tree,Adelie,Adelie,True
+280,3,Decision Tree,Chinstrap,Chinstrap,True
+243,3,Decision Tree,Gentoo,Gentoo,True
+343,3,Decision Tree,Chinstrap,Chinstrap,True
+242,3,Decision Tree,Gentoo,Gentoo,True
+49,3,Decision Tree,Adelie,Adelie,True
+302,3,Decision Tree,Chinstrap,Chinstrap,True
+338,3,Decision Tree,Chinstrap,Chinstrap,True
+202,3,Decision Tree,Gentoo,Gentoo,True
+137,3,Decision Tree,Adelie,Adelie,True
+139,3,Decision Tree,Adelie,Adelie,True
+177,3,Decision Tree,Gentoo,Gentoo,True
+75,3,Decision Tree,Adelie,Adelie,True
+141,4,Decision Tree,Adelie,Adelie,True
+194,4,Decision Tree,Gentoo,Gentoo,True
+165,4,Decision Tree,Gentoo,Gentoo,True
+109,4,Decision Tree,Adelie,Adelie,True
+330,4,Decision Tree,Chinstrap,Adelie,False
+97,4,Decision Tree,Adelie,Adelie,True
+274,4,Decision Tree,Gentoo,Gentoo,True
+250,4,Decision Tree,Gentoo,Chinstrap,False
+286,4,Decision Tree,Chinstrap,Chinstrap,True
+61,4,Decision Tree,Adelie,Adelie,True
+245,4,Decision Tree,Gentoo,Gentoo,True
+259,4,Decision Tree,Gentoo,Gentoo,True
+333,4,Decision Tree,Chinstrap,Chinstrap,True
+230,4,Decision Tree,Gentoo,Gentoo,True
+53,4,Decision Tree,Adelie,Adelie,True
+28,4,Decision Tree,Adelie,Adelie,True
+128,4,Decision Tree,Adelie,Adelie,True
+225,4,Decision Tree,Gentoo,Gentoo,True
+300,4,Decision Tree,Chinstrap,Chinstrap,True
+276,4,Decision Tree,Chinstrap,Chinstrap,True
+176,4,Decision Tree,Gentoo,Gentoo,True
+199,4,Decision Tree,Gentoo,Gentoo,True
+287,4,Decision Tree,Chinstrap,Chinstrap,True
+164,4,Decision Tree,Gentoo,Gentoo,True
+31,4,Decision Tree,Adelie,Adelie,True
+119,4,Decision Tree,Adelie,Adelie,True
+68,4,Decision Tree,Adelie,Adelie,True
+193,4,Decision Tree,Gentoo,Gentoo,True
+50,4,Decision Tree,Adelie,Adelie,True
+171,4,Decision Tree,Gentoo,Gentoo,True
+17,4,Decision Tree,Adelie,Adelie,True
+111,4,Decision Tree,Adelie,Chinstrap,False
+70,4,Decision Tree,Adelie,Adelie,True
+135,4,Decision Tree,Adelie,Adelie,True
+143,4,Decision Tree,Adelie,Adelie,True
+271,4,Decision Tree,Gentoo,Adelie,False
+152,4,Decision Tree,Gentoo,Gentoo,True
+44,4,Decision Tree,Adelie,Adelie,True
+7,4,Decision Tree,Adelie,Adelie,True
+292,4,Decision Tree,Chinstrap,Chinstrap,True
+296,4,Decision Tree,Chinstrap,Adelie,False
+94,4,Decision Tree,Adelie,Adelie,True
+332,4,Decision Tree,Chinstrap,Chinstrap,True
+320,4,Decision Tree,Chinstrap,Chinstrap,True
+158,4,Decision Tree,Gentoo,Gentoo,True
+187,4,Decision Tree,Gentoo,Gentoo,True
+284,4,Decision Tree,Chinstrap,Chinstrap,True
+66,4,Decision Tree,Adelie,Adelie,True
+264,4,Decision Tree,Gentoo,Gentoo,True
+30,4,Decision Tree,Adelie,Adelie,True
+23,4,Decision Tree,Adelie,Adelie,True
+107,4,Decision Tree,Adelie,Adelie,True
+222,4,Decision Tree,Gentoo,Gentoo,True
+161,4,Decision Tree,Gentoo,Gentoo,True
+10,4,Decision Tree,Adelie,Adelie,True
+235,5,Decision Tree,Gentoo,Gentoo,True
+265,5,Decision Tree,Gentoo,Gentoo,True
+232,5,Decision Tree,Gentoo,Gentoo,True
+3,5,Decision Tree,Adelie,Chinstrap,False
+78,5,Decision Tree,Adelie,Adelie,True
+228,5,Decision Tree,Gentoo,Gentoo,True
+47,5,Decision Tree,Adelie,Adelie,True
+310,5,Decision Tree,Chinstrap,Chinstrap,True
+18,5,Decision Tree,Adelie,Adelie,True
+184,5,Decision Tree,Gentoo,Chinstrap,False
+267,5,Decision Tree,Gentoo,Gentoo,True
+229,5,Decision Tree,Gentoo,Gentoo,True
+26,5,Decision Tree,Adelie,Adelie,True
+101,5,Decision Tree,Adelie,Adelie,True
+216,5,Decision Tree,Gentoo,Gentoo,True
+159,5,Decision Tree,Gentoo,Gentoo,True
+150,5,Decision Tree,Adelie,Adelie,True
+308,5,Decision Tree,Chinstrap,Adelie,False
+211,5,Decision Tree,Gentoo,Gentoo,True
+27,5,Decision Tree,Adelie,Adelie,True
+266,5,Decision Tree,Gentoo,Gentoo,True
+321,5,Decision Tree,Chinstrap,Chinstrap,True
+239,5,Decision Tree,Gentoo,Gentoo,True
+299,5,Decision Tree,Chinstrap,Chinstrap,True
+22,5,Decision Tree,Adelie,Adelie,True
+89,5,Decision Tree,Adelie,Adelie,True
+262,5,Decision Tree,Gentoo,Gentoo,True
+178,5,Decision Tree,Gentoo,Gentoo,True
+329,5,Decision Tree,Chinstrap,Chinstrap,True
+246,5,Decision Tree,Gentoo,Gentoo,True
+293,5,Decision Tree,Chinstrap,Chinstrap,True
+149,5,Decision Tree,Adelie,Adelie,True
+279,5,Decision Tree,Chinstrap,Chinstrap,True
+218,5,Decision Tree,Gentoo,Gentoo,True
+214,5,Decision Tree,Gentoo,Gentoo,True
+200,5,Decision Tree,Gentoo,Gentoo,True
+110,5,Decision Tree,Adelie,Adelie,True
+131,5,Decision Tree,Adelie,Adelie,True
+69,5,Decision Tree,Adelie,Adelie,True
+181,5,Decision Tree,Gentoo,Gentoo,True
+54,5,Decision Tree,Adelie,Adelie,True
+11,5,Decision Tree,Adelie,Adelie,True
+108,5,Decision Tree,Adelie,Adelie,True
+315,5,Decision Tree,Chinstrap,Chinstrap,True
+324,5,Decision Tree,Chinstrap,Chinstrap,True
+55,5,Decision Tree,Adelie,Adelie,True
+281,5,Decision Tree,Chinstrap,Chinstrap,True
+133,5,Decision Tree,Adelie,Adelie,True
+0,5,Decision Tree,Adelie,Adelie,True
+186,5,Decision Tree,Gentoo,Gentoo,True
+60,5,Decision Tree,Adelie,Adelie,True
+145,5,Decision Tree,Adelie,Adelie,True
+140,5,Decision Tree,Adelie,Adelie,True
+327,5,Decision Tree,Chinstrap,Chinstrap,True
+82,5,Decision Tree,Adelie,Adelie,True
