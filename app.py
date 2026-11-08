@@ -1,4 +1,4 @@
-"""Penguin Classifier: antarmuka offline dengan artefak hasil training nyata."""
+"""PenguInsight: klasifikasi spesies penguin dari karakteristik fisik."""
 from __future__ import annotations
 
 import csv
@@ -9,9 +9,9 @@ import logging
 import pandas as pd
 import streamlit as st
 
-from penguin_core import ROOT, FEATURES, LABELS, DISPLAY, read_json, load_artifacts, predict_frame
+from penguin_core import APP_NAME, PROJECT_TITLE, ROOT, FEATURES, LABELS, DISPLAY, read_json, load_artifacts, predict_frame
 
-st.set_page_config(page_title="Penguin Classifier", page_icon="🐧", layout="wide")
+st.set_page_config(page_title=APP_NAME, page_icon="🐧", layout="wide")
 logger=logging.getLogger(__name__)
 
 st.markdown("<style>"+(ROOT / "assets" / "theme.css").read_text(encoding="utf-8")+"</style>",unsafe_allow_html=True)
@@ -40,7 +40,7 @@ def penguin_svg(label="Adelie"):
 
 st.markdown(f'''<div class="app-brandbar">
 <div class="brand-icon">{penguin_svg()}</div>
-<div><div class="brand-name">Penguin Classifier</div><div class="brand-subtitle">Kenali spesies lewat ukuran tubuh</div></div>
+<div class="brand-copy"><div class="brand-name">{html.escape(APP_NAME)}</div><div class="brand-subtitle">Klasifikasi spesies berdasarkan karakteristik fisik</div></div>
 <div class="brand-badge">PALMER PENGUINS</div>
 </div>''',unsafe_allow_html=True)
 
@@ -83,6 +83,7 @@ with st.sidebar:
 
 def show_single():
     st.title("Penguin apa yang sedang kita ukur?")
+    st.caption(PROJECT_TITLE)
     st.write("Masukkan empat ukuran tubuh, lalu lihat prediksi spesiesnya.")
     st.markdown(f'''<div class="hero"><div><h2>Dari empat angka, kenali tiga spesies.</h2>
     <p>Adelie, Chinstrap, dan Gentoo dari dataset Palmer Penguins.</p>
@@ -199,6 +200,7 @@ def show_single():
 
 def show_evaluation():
     st.title("Tentang model")
+    st.caption(PROJECT_TITLE)
     st.write("Kenali metode yang digunakan, hasil evaluasi, dan batas kemampuan prediksi aplikasi.")
     a,b,c,d=st.columns(4)
     a.metric("Model aktif",selected)
@@ -300,4 +302,4 @@ if nav=="Prediksi":show_single()
 elif nav=="Tentang model":show_evaluation()
 elif nav=="Tentang dataset":show_dataset()
 else:show_help()
-st.markdown('<div class="footer">Penguin Classifier · Identifikasi tiga spesies dari ukuran tubuh · Hasil prediksi bukan kepastian.</div>',unsafe_allow_html=True)
+st.markdown(f'<div class="footer">{html.escape(APP_NAME)} · Identifikasi tiga spesies dari ukuran tubuh · Hasil prediksi bukan kepastian.</div>',unsafe_allow_html=True)

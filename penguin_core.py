@@ -10,6 +10,9 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parent
+APP_NAME = "PenguInsight"
+PROJECT_DESCRIPTION = "Klasifikasi Spesies Penguin Berdasarkan Karakteristik Fisik Menggunakan Machine Learning"
+PROJECT_TITLE = f"{APP_NAME}: {PROJECT_DESCRIPTION}"
 FEATURES = ["bill_length_mm", "bill_depth_mm", "flipper_length_mm", "body_mass_g"]
 LABELS = ["Adelie", "Chinstrap", "Gentoo"]
 DISPLAY = {
